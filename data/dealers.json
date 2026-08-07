@@ -1,0 +1,33 @@
+{
+  "dealers": [
+    {"_id": "d01", "brand": "Tata", "name": "Tata EV Exclusive - Mumbai", "state": "Maharashtra", "city": "Mumbai", "address": "123 MG Road, Andheri West, Mumbai - 400053", "phone": "+91 22 2678 9012", "email": "mumbai@tataev.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Spare Parts"]},
+    {"_id": "d02", "brand": "Tata", "name": "Tata EV World - Pune", "state": "Maharashtra", "city": "Pune", "address": "456 FC Road, Shivajinagar, Pune - 411005", "phone": "+91 20 2567 8901", "email": "pune@tataev.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service"]},
+    {"_id": "d03", "brand": "Ola", "name": "Ola Experience Store - Bangalore", "state": "Karnataka", "city": "Bangalore", "address": "789 Brigade Road, Bangalore - 560001", "phone": "+91 80 4567 8901", "email": "bangalore@olaelectric.com", "timings": "10:00 AM - 9:00 PM", "services": ["Sales", "Service", "Test Ride"]},
+    {"_id": "d04", "brand": "Ather", "name": "Ather Space - Chennai", "state": "Tamil Nadu", "city": "Chennai", "address": "321 Anna Salai, Chennai - 600002", "phone": "+91 44 2345 6789", "email": "chennai@atherenergy.com", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride", "Charging"]},
+    {"_id": "d05", "brand": "TVS", "name": "TVS Electric Hub - Delhi", "state": "Delhi", "city": "New Delhi", "address": "654 Janpath, New Delhi - 110001", "phone": "+91 11 2345 6789", "email": "delhi@tvs.in", "timings": "9:00 AM - 8:00 PM", "services": ["Sales", "Service"]},
+    {"_id": "d06", "brand": "Bajaj", "name": "Bajaj Chetak Plaza - Hyderabad", "state": "Telangana", "city": "Hyderabad", "address": "987 Banjara Hills, Hyderabad - 500034", "phone": "+91 40 6789 0123", "email": "hyderabad@bajaj.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride"]},
+    {"_id": "d07", "brand": "MG", "name": "MG Motor - Kolkata", "state": "West Bengal", "city": "Kolkata", "address": "147 Park Street, Kolkata - 700016", "phone": "+91 33 4567 8901", "email": "kolkata@mgmotor.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride"]},
+    {"_id": "d08", "brand": "Mahindra", "name": "Mahindra Born Electric - Mumbai", "state": "Maharashtra", "city": "Mumbai", "address": "258 Linking Road, Bandra West, Mumbai - 400050", "phone": "+91 22 3456 7890", "email": "mumbai@mahindraelectric.com", "timings": "10:00 AM - 9:00 PM", "services": ["Sales", "Service", "Test Ride", "Charging"]},
+    {"_id": "d09", "brand": "Tata", "name": "Tata EV Store - Ahmedabad", "state": "Gujarat", "city": "Ahmedabad", "address": "369 CG Road, Ahmedabad - 380006", "phone": "+91 79 4567 8901", "email": "ahmedabad@tataev.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service"]},
+    {"_id": "d10", "brand": "Ola", "name": "Ola Store - Jaipur", "state": "Rajasthan", "city": "Jaipur", "address": "789 MI Road, Jaipur - 302001", "phone": "+91 141 2345 678", "email": "jaipur@olaelectric.com", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Test Ride"]},
+    {"_id": "d11", "brand": "Ather", "name": "Ather Space - Hyderabad", "state": "Telangana", "city": "Hyderabad", "address": "456 Madhapur, Hyderabad - 500081", "phone": "+91 40 5678 9012", "email": "hyderabad@atherenergy.com", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride", "Charging"]},
+    {"_id": "d12", "brand": "TVS", "name": "TVS Electric Zone - Bangalore", "state": "Karnataka", "city": "Bangalore", "address": "123 MG Road, Bangalore - 560001", "phone": "+91 80 6789 0123", "email": "bangalore@tvs.in", "timings": "9:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride"]},
+    {"_id": "d13", "brand": "Tata", "name": "Tata EV Hub - Chennai", "state": "Tamil Nadu", "city": "Chennai", "address": "876 Nungambakkam High Road, Chennai - 600034", "phone": "+91 44 7890 1234", "email": "chennai@tataev.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Spare Parts"]},
+    {"_id": "d14", "brand": "Mahindra", "name": "Mahindra Electric - Pune", "state": "Maharashtra", "city": "Pune", "address": "234 Koregaon Park, Pune - 411001", "phone": "+91 20 6789 0123", "email": "pune@mahindraelectric.com", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride"]},
+    {"_id": "d15", "brand": "Ola", "name": "Ola Experience Store - Chennai", "state": "Tamil Nadu", "city": "Chennai", "address": "567 Velachery Main Road, Chennai - 600042", "phone": "+91 44 8901 2345", "email": "chennai@olaelectric.com", "timings": "10:00 AM - 9:00 PM", "services": ["Sales", "Service", "Test Ride"]},
+    {"_id": "d16", "brand": "Bajaj", "name": "Bajaj AutoZone - Mumbai", "state": "Maharashtra", "city": "Mumbai", "address": "892 SV Road, Andheri West, Mumbai - 400058", "phone": "+91 22 5678 9012", "email": "mumbai@bajaj.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service"]},
+    {"_id": "d17", "brand": "MG", "name": "MG Motor - Delhi", "state": "Delhi", "city": "New Delhi", "address": "321 Mathura Road, New Delhi - 110044", "phone": "+91 11 6789 0123", "email": "delhi@mgmotor.in", "timings": "10:00 AM - 8:00 PM", "services": ["Sales", "Service", "Test Ride", "Charging"]},
+    {"_id": "d18", "brand": "Ampere", "name": "Ampere EV Store - Coimbatore", "state": "Tamil Nadu", "city": "Coimbatore", "address": "654 Oppanakara Street, Coimbatore - 641002", "phone": "+91 422 234 5678", "email": "coimbatore@ampere.in", "timings": "9:00 AM - 7:00 PM", "services": ["Sales", "Service"]}
+  ],
+  "states": ["Maharashtra", "Karnataka", "Tamil Nadu", "Delhi", "Telangana", "West Bengal", "Gujarat", "Rajasthan"],
+  "cities_by_state": {
+    "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+    "Karnataka": ["Bangalore", "Mysore"],
+    "Tamil Nadu": ["Chennai", "Coimbatore"],
+    "Delhi": ["New Delhi"],
+    "Telangana": ["Hyderabad"],
+    "West Bengal": ["Kolkata"],
+    "Gujarat": ["Ahmedabad"],
+    "Rajasthan": ["Jaipur"]
+  }
+}

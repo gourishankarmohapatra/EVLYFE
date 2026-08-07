@@ -1,0 +1,82 @@
+{
+  "blogs": [
+    {
+      "_id": "bl01",
+      "title": "EV vs ICE: Total Cost of Ownership Comparison 2026",
+      "slug": "ev-vs-ice-tco-comparison-2026",
+      "subtitle": "A detailed analysis of the long-term costs of electric vehicles vs internal combustion engine vehicles",
+      "author": "EVLYFE Team",
+      "date": "2026-07-15",
+      "category": "Comparison",
+      "featureImage": "images/blog/ev-vs-ice.jpg",
+      "mobileFeatureImage": "images/blog/ev-vs-ice.jpg",
+      "viewCount": 2345,
+      "description": "Electric vehicles have come a long way in terms of affordability and performance. In this comprehensive guide, we compare the total cost of ownership between electric vehicles and traditional petrol/diesel vehicles over a 5-year period. We factor in purchase price, fuel costs, maintenance, insurance, and resale value to give you a complete picture."
+    },
+    {
+      "_id": "bl02",
+      "title": "Monsoon Safety Guide for Electric Vehicles",
+      "slug": "monsoon-safety-guide-ev",
+      "subtitle": "Essential tips for safely operating your electric vehicle during the rainy season",
+      "author": "EVLYFE Team",
+      "date": "2026-07-10",
+      "category": "Guides",
+      "featureImage": "images/blog/monsoon-ev.jpg",
+      "mobileFeatureImage": "images/blog/monsoon-ev.jpg",
+      "viewCount": 1876,
+      "description": "Driving an electric vehicle during the monsoon requires some extra precautions. From battery maintenance to water wading depth, we cover everything you need to know to keep your EV safe and performing optimally during heavy rains."
+    },
+    {
+      "_id": "bl03",
+      "title": "Tata Sierra EV: Launch Date, Price & Complete Specs",
+      "slug": "tata-sierra-ev-launch",
+      "subtitle": "Everything we know about Tata's upcoming Sierra EV electric SUV",
+      "author": "EVLYFE Team",
+      "date": "2026-07-05",
+      "category": "Upcoming",
+      "featureImage": "images/blog/tata-sierra.jpg",
+      "mobileFeatureImage": "images/blog/tata-sierra.jpg",
+      "viewCount": 3421,
+      "description": "Tata Motors is all set to launch the Sierra EV, a retro-modern electric SUV that promises to blend classic design with cutting-edge electric technology. Here's everything we know about the launch date, expected price range, battery specs, and features."
+    },
+    {
+      "_id": "bl04",
+      "title": "EV Battery Warranty: Complete Protection Guide",
+      "slug": "ev-battery-warranty-guide",
+      "subtitle": "Understanding battery warranties and how to maximize your EV battery life",
+      "author": "EVLYFE Team",
+      "date": "2026-06-28",
+      "category": "Guides",
+      "featureImage": "images/blog/battery-warranty.jpg",
+      "mobileFeatureImage": "images/blog/battery-warranty.jpg",
+      "viewCount": 1543,
+      "description": "Battery warranty is one of the most important factors when purchasing an electric vehicle. This guide explains what different manufacturers offer, what's covered, and best practices to extend your EV battery's lifespan."
+    },
+    {
+      "_id": "bl05",
+      "title": "Top 10 Electric Scooters Under 1.5 Lakh in 2026",
+      "slug": "top-10-electric-scooters-under-1.5-lakh",
+      "subtitle": "Best value electric scooters you can buy in India right now",
+      "author": "EVLYFE Team",
+      "date": "2026-06-20",
+      "category": "Top Picks",
+      "featureImage": "images/blog/top-scooters.jpg",
+      "mobileFeatureImage": "images/blog/top-scooters.jpg",
+      "viewCount": 4567,
+      "description": "Looking for the best electric scooter under 1.5 lakh? We've compiled a list of the top 10 electric scooters offering the best range, features, and value for money in the Indian market right now."
+    },
+    {
+      "_id": "bl06",
+      "title": "Charging Infrastructure: India's EV Charging Network 2026",
+      "slug": "india-ev-charging-network-2026",
+      "subtitle": "Current state of EV charging stations across India and future plans",
+      "author": "EVLYFE Team",
+      "date": "2026-06-15",
+      "category": "Industry",
+      "featureImage": "images/blog/charging-network.jpg",
+      "mobileFeatureImage": "images/blog/charging-network.jpg",
+      "viewCount": 2134,
+      "description": "India's EV charging infrastructure is rapidly expanding. We take a look at the current number of charging stations, major charging networks, government initiatives, and what the future holds for EV charging in India."
+    }
+  ]
+}

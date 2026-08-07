@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Electric Vehicles in India 2026 - EV Prices, Range, Images & Reviews | EVLYFE</title>
+  <meta name="google-site-verification" content="841rKKUD2i1oPUCkmrJSs5g4yIn5pnCwjWTO9izyGio" />
+  <meta name="description" content="EVLYFE lists 200+ electric vehicles across all categories - electric cars, scooters, bikes, and commercial vehicles from top brands. Compare EV prices, range, specifications.">
+  <meta name="keywords" content="electric vehicles India, EV prices, electric cars, electric scooters, electric bikes, EV comparison">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.evlyfe.com/">
+  <meta property="og:title" content="Electric Vehicles in India 2026 | EVLYFE">
+  <meta property="og:description" content="Compare 200+ electric vehicles in India. Find the best EV for your needs.">
+  <meta property="og:url" content="https://www.evlyfe.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.evlyfe.com/images/logo.png">
+  <meta property="og:site_name" content="EVLYFE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Electric Vehicles in India 2026 | EVLYFE">
+  <meta name="twitter:description" content="Compare 200+ electric vehicles in India. Find the best EV for your needs.">
+  <meta name="twitter:image" content="https://www.evlyfe.com/images/logo.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y69EN12KH"></script>
+  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-4Y69EN12KH');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6950966761441733" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "EVLYFE",
+    "url": "https://www.evlyfe.com",
+    "logo": "https://www.evlyfe.com/images/logo.png",
+    "description": "India's leading electric vehicle comparison platform. Compare 200+ EVs - prices, range, specifications & reviews.",
+    "sameAs": [],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "EVLYFE",
+    "url": "https://www.evlyfe.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.evlyfe.com/electric-vehicles.html?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.evlyfe.com/"
+      }
+    ]
+  }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <div id="app">
+    <header id="mainHeader"></header>
+
+    <!-- ========== BANNER CAROUSEL ========== -->
+    <section class="banner-carousel-section">
+      <div id="bannerCarousel"></div>
+    </section>
+
+    <!-- ========== 1. HERO SEARCH SECTION ========== -->
+    <section class="hero-search-section">
+      <div class="container">
+        <h1>Find Your Perfect Electric Vehicle</h1>
+        <p class="hero-subtitle">Explore 200+ electric vehicles across India - Compare prices, range, specifications & reviews</p>
+
+        <div class="hero-search-tabs">
+          <button class="tab-btn active" onclick="switchHeroTab('budget')">By Budget</button>
+          <button class="tab-btn" onclick="switchHeroTab('brand')">By Brand</button>
+          <button class="tab-btn" onclick="switchHeroTab('type')">By Type</button>
+        </div>
+
+        <div class="hero-search-form">
+          <!-- Budget Tab -->
+          <div id="heroBudgetTab">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Min Budget</label>
+                <select id="heroMinBudget">
+                  <option value="">No Min</option>
+                  <option value="0">₹0</option>
+                  <option value="50000">₹50,000</option>
+                  <option value="100000">₹1 Lakh</option>
+                  <option value="300000">₹3 Lakh</option>
+                  <option value="500000">₹5 Lakh</option>
+                  <option value="1000000">₹10 Lakh</option>
+                  <option value="2000000">₹20 Lakh</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Max Budget</label>
+                <select id="heroMaxBudget">
+                  <option value="">No Max</option>
+                  <option value="100000">₹1 Lakh</option>
+                  <option value="300000">₹3 Lakh</option>
+                  <option value="500000">₹5 Lakh</option>
+                  <option value="1000000">₹10 Lakh</option>
+                  <option value="2000000">₹20 Lakh</option>
+                  <option value="5000000">₹50 Lakh</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Vehicle Type</label>
+                <select id="heroTypeBudget">
+                  <option value="">All Types</option>
+                  <option value="2">Electric Scooter</option>
+                  <option value="1">Electric Bike</option>
+                  <option value="10">Electric Car</option>
+                </select>
+              </div>
+            </div>
+            <button class="btn-search" onclick="searchByBudget()"><i class="bi bi-search"></i> Search EVs by Budget</button>
+          </div>
+
+          <!-- Brand Tab -->
+          <div id="heroBrandTab" style="display:none;">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Select Brand</label>
+                <select id="heroBrand">
+                  <option value="">All Brands</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Vehicle Type</label>
+                <select id="heroTypeBrand">
+                  <option value="">All Types</option>
+                  <option value="2">Electric Scooter</option>
+                  <option value="1">Electric Bike</option>
+                  <option value="10">Electric Car</option>
+                </select>
+              </div>
+            </div>
+            <button class="btn-search" onclick="searchByBrand()"><i class="bi bi-search"></i> Search EVs by Brand</button>
+          </div>
+
+          <!-- Type Tab -->
+          <div id="heroTypeTab" style="display:none;">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Vehicle Type</label>
+                <select id="heroVehicleType">
+                  <option value="">All Electric Vehicles</option>
+                  <option value="2">Electric Scooters</option>
+                  <option value="1">Electric Bikes</option>
+                  <option value="10">Electric Cars</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Sort By</label>
+                <select id="heroSortType">
+                  <option value="popular">Most Popular</option>
+                  <option value="price_low">Price: Low to High</option>
+                  <option value="price_high">Price: High to Low</option>
+                  <option value="range">Range: High to Low</option>
+                </select>
+              </div>
+            </div>
+            <button class="btn-search" onclick="searchByType()"><i class="bi bi-search"></i> Search EVs by Type</button>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat"><div class="stat-value">200+</div><div class="stat-label">Electric Vehicles</div></div>
+          <div class="stat"><div class="stat-value">30+</div><div class="stat-label">EV Companies</div></div>
+          <div class="stat"><div class="stat-value">100+</div><div class="stat-label">Charging Stations</div></div>
+          <div class="stat"><div class="stat-value">50+</div><div class="stat-label">Cities</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 2. EVs IN SPOTLIGHT ========== -->
+    <section class="spotlight-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>EVs in Spotlight</h2>
+          <a href="electric-vehicles.html" class="view-all">View All <i class="bi bi-arrow-right"></i></a>
+        </div>
+
+        <div class="spotlight-tabs" id="spotlightTabs">
+          <button class="spot-tab active" onclick="switchSpotlight('Scooter', this)">Electric Scooters</button>
+          <button class="spot-tab" onclick="switchSpotlight('Bike', this)">Electric Bikes</button>
+          <button class="spot-tab" onclick="switchSpotlight('Car', this)">Electric Cars</button>
+        </div>
+
+        <div class="spotlight-scroll-container">
+          <button class="scroll-arrow left" onclick="scrollSpotlight(-1)"><i class="bi bi-chevron-left"></i></button>
+          <div class="spotlight-scroll" id="spotlightGrid"></div>
+          <button class="scroll-arrow right" onclick="scrollSpotlight(1)"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== AD SLOT 1 ========== -->
+    <div class="container">
+      <div class="ad-slot">
+        <div class="ad-label">Advertisement</div>
+        <div class="ad-container">
+          <!-- Google AdSense - Responsive Ad Unit -->
+          <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+          Ad Space - 728x90 / Responsive
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 3. BROWSE BY BUDGET ========== -->
+    <section class="browse-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Browse Electric Vehicles by Budget</h2>
+        </div>
+        <div class="browse-tiles" id="budgetTiles"></div>
+      </div>
+    </section>
+
+    <!-- ========== 4. BROWSE BY TYPE ========== -->
+    <section class="browse-section" style="background:var(--bg-main);">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Browse by Vehicle Type</h2>
+        </div>
+        <div class="browse-tiles">
+          <a href="electric-scooters.html" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-bicycle"></i></div>
+            <div class="tile-info"><div class="tile-label">Electric Scooters</div><div class="tile-count">Browse All</div></div>
+          </a>
+          <a href="electric-bikes.html" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-bicycle"></i></div>
+            <div class="tile-info"><div class="tile-label">Electric Bikes</div><div class="tile-count">Browse All</div></div>
+          </a>
+          <a href="electric-cars.html" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-car-front"></i></div>
+            <div class="tile-info"><div class="tile-label">Electric Cars</div><div class="tile-count">Browse All</div></div>
+          </a>
+          <a href="companies.html" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-grid"></i></div>
+            <div class="tile-info"><div class="tile-label">EV Companies</div><div class="tile-count">30+ Brands</div></div>
+          </a>
+          <a href="compare.html" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-arrow-left-right"></i></div>
+            <div class="tile-info"><div class="tile-label">Compare EVs</div><div class="tile-count">Side by Side</div></div>
+          </a>
+          <a href="dealer-showrooms.html" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-shop"></i></div>
+            <div class="tile-info"><div class="tile-label">Find Dealers</div><div class="tile-count">Near You</div></div>
+          </a>
+          <a href="#chargingSection" class="browse-tile">
+            <div class="tile-icon"><i class="bi bi-ev-station"></i></div>
+            <div class="tile-info"><div class="tile-label">Charging Stations</div><div class="tile-count">Locate</div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== AD SLOT 2 ========== -->
+    <div class="container">
+      <div class="ad-slot">
+        <div class="ad-label">Advertisement</div>
+        <div class="ad-container">
+          <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+          Ad Space - 300x250 / Responsive
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 5. POPULAR ELECTRIC VEHICLES ========== -->
+    <section class="spotlight-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Most Popular Electric Vehicles</h2>
+          <a href="electric-vehicles.html?sort=popular" class="view-all">View All <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="spotlight-scroll-container">
+          <button class="scroll-arrow left" onclick="scrollPopular(-1)"><i class="bi bi-chevron-left"></i></button>
+          <div class="spotlight-scroll" id="popularGrid"></div>
+          <button class="scroll-arrow right" onclick="scrollPopular(1)"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6. UPCOMING EVs ========== -->
+    <section class="upcoming-section" style="background:var(--bg-main);">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Upcoming Electric Vehicles</h2>
+        </div>
+        <div class="upcoming-grid" id="upcomingGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== AD SLOT 3 ========== -->
+    <div class="container">
+      <div class="ad-slot">
+        <div class="ad-label">Advertisement</div>
+        <div class="ad-container">
+          <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+          Ad Space - 336x280 / Responsive
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 7. LATEST LAUNCHES ========== -->
+    <section class="latest-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Recently Launched Electric Vehicles</h2>
+          <a href="electric-vehicles.html" class="view-all">View All <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="latest-grid" id="latestGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== 8. COMPARE EVs ========== -->
+    <section class="compare-vs-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Compare Electric Vehicles</h2>
+          <a href="compare.html" class="view-all">Compare All <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="compare-vs-grid" id="compareVsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== AD SLOT 4 ========== -->
+    <div class="container">
+      <div class="ad-slot">
+        <div class="ad-label">Advertisement</div>
+        <div class="ad-container">
+          <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+          Ad Space - 728x90 / Responsive
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 9. POPULAR BRANDS ========== -->
+    <section class="browse-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Explore EV Companies</h2>
+          <a href="companies.html" class="view-all">View All Companies <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="brands-grid" id="brandsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== 10. CHARGING STATIONS ========== -->
+    <section class="charging-section" id="chargingSection">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Find EV Charging Stations Near You</h2>
+        </div>
+        <div class="charging-filters">
+          <select id="chargingState" onchange="onChargingStateChange()">
+            <option value="">All States</option>
+          </select>
+          <select id="chargingCity" onchange="filterChargingStations()">
+            <option value="">All Cities</option>
+          </select>
+        </div>
+        <p id="chargingCount" style="font-size:13px;color:#666;margin-bottom:15px;"></p>
+        <div class="charging-grid" id="chargingGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== AD SLOT 5 ========== -->
+    <div class="container">
+      <div class="ad-slot">
+        <div class="ad-label">Advertisement</div>
+        <div class="ad-container">
+          <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX" data-ad-format="auto" data-full-width-responsive="true"></ins> -->
+          Ad Space - 336x280 / Responsive
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== 11. EV NEWS ========== -->
+    <section class="news-section">
+      <div class="container">
+        <div class="section-header-row">
+          <h2>Latest EV News & Guides</h2>
+          <a href="blog.html" class="view-all">View All <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ========== 12. FAQs ========== -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header-row" style="justify-content:center;">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <!-- ========== 13. NEWSLETTER CTA ========== -->
+    <section class="cta-newsletter">
+      <div class="container">
+        <h2>Stay Updated on Electric Vehicles</h2>
+        <p>Get the latest EV news, prices, and reviews delivered to your inbox.</p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" id="newsletterEmail">
+          <button onclick="subscribeNewsletter()">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="mainFooter"></footer>
+    <div id="backToTopBtn"></div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/banner-carousel.js"></script>
+  <script>
+    document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
+    document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
+    document.getElementById('backToTopBtn').innerHTML = Navigation.getBackToTop();
+
+    // ========== HERO SEARCH TABS ==========
+    function switchHeroTab(tab) {
+      document.querySelectorAll('.hero-search-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      document.getElementById('heroBudgetTab').style.display = tab === 'budget' ? 'block' : 'none';
+      document.getElementById('heroBrandTab').style.display = tab === 'brand' ? 'block' : 'none';
+      document.getElementById('heroTypeTab').style.display = tab === 'type' ? 'block' : 'none';
+    }
+
+    function searchByBudget() {
+      const min = document.getElementById('heroMinBudget').value;
+      const max = document.getElementById('heroMaxBudget').value;
+      const type = document.getElementById('heroTypeBudget').value;
+      let url = 'electric-vehicles.html?';
+      if (min) url += `min_price=${min}&`;
+      if (max) url += `max_price=${max}&`;
+      if (type) url += `type=${type}&`;
+      window.location.href = url.slice(0, -1);
+    }
+
+    function searchByBrand() {
+      const brand = document.getElementById('heroBrand').value;
+      const type = document.getElementById('heroTypeBrand').value;
+      let url = 'electric-vehicles.html?';
+      if (brand) url += `brand=${brand}&`;
+      if (type) url += `type=${type}&`;
+      window.location.href = url.slice(0, -1);
+    }
+
+    function searchByType() {
+      const type = document.getElementById('heroVehicleType').value;
+      const sort = document.getElementById('heroSortType').value;
+      let url = 'electric-vehicles.html?';
+      if (type) url += `type=${type}&`;
+      if (sort) url += `sort=${sort}&`;
+      window.location.href = url.slice(0, -1);
+    }
+
+    // ========== SPOTLIGHT ==========
+    let currentSpotlightType = 'Scooter';
+
+    function switchSpotlight(type, btn) {
+      currentSpotlightType = type;
+      document.querySelectorAll('#spotlightTabs .spot-tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      loadSpotlight(type);
+    }
+
+    function loadSpotlight(type) {
+      const vehicles = API.getSpotlightVehicles(type, 10);
+      const grid = document.getElementById('spotlightGrid');
+      grid.innerHTML = vehicles.map(v => `
+        <div class="spotlight-card">
+          <div class="card-image-wrap">
+            <img src="${v.image}" alt="${v.title}" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-brand">${v.company}</div>
+            <div class="card-title">${v.title}</div>
+            <div class="card-price">${v.price_display}</div>
+            <div class="card-range"><i class="bi bi-battery-charging"></i> ${v.true_range} km range | ${v.top_speed} km/h</div>
+            <div class="card-actions">
+              <a href="vehicle.html?slug=${v.slug}" class="btn-view">View Details</a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function scrollSpotlight(dir) {
+      const el = document.getElementById('spotlightGrid');
+      el.scrollBy({ left: dir * 250, behavior: 'smooth' });
+    }
+
+    function scrollPopular(dir) {
+      const el = document.getElementById('popularGrid');
+      el.scrollBy({ left: dir * 250, behavior: 'smooth' });
+    }
+
+    // ========== POPULAR VEHICLES ==========
+    function loadPopular() {
+      const vehicles = API.getPopularVehicles(10);
+      const grid = document.getElementById('popularGrid');
+      grid.innerHTML = vehicles.map(v => `
+        <div class="spotlight-card">
+          <div class="card-image-wrap">
+            <img src="${v.image}" alt="${v.title}" loading="lazy">
+          </div>
+          <div class="card-body">
+            <div class="card-brand">${v.company}</div>
+            <div class="card-title">${v.title}</div>
+            <div class="card-price">${v.price_display}</div>
+            <div class="card-range"><i class="bi bi-battery-charging"></i> ${v.true_range} km range | ${v.top_speed} km/h</div>
+            <div class="card-actions">
+              <a href="vehicle.html?slug=${v.slug}" class="btn-view">View Details</a>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // ========== UPCOMING ==========
+    function loadUpcoming() {
+      const upcoming = API.getUpcomingVehicles();
+      const grid = document.getElementById('upcomingGrid');
+      grid.innerHTML = upcoming.map(u => `
+        <div class="upcoming-card">
+          <img src="${u.image}" alt="${u.title}" class="upcoming-image">
+          <div class="upcoming-info">
+            <span class="upcoming-badge">${u.vehicle_type}</span>
+            <div class="upcoming-title">${u.title}</div>
+            <div class="upcoming-price">Expected: ${u.expected_price}</div>
+            <div class="upcoming-launch"><i class="bi bi-calendar3"></i> Expected Launch: ${u.launch_date}</div>
+            <button class="btn-alert" onclick="alertMe('${u.title}')"><i class="bi bi-bell"></i> Alert Me</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function alertMe(vehicleTitle) {
+      const email = prompt(`Get notified when ${vehicleTitle} is launched.\nEnter your email:`);
+      if (email && email.includes('@')) {
+        API.saveAlert(email, vehicleTitle);
+        alert(`Thank you! We'll notify you when ${vehicleTitle} is launched.`);
+      } else if (email) {
+        alert('Please enter a valid email address.');
+      }
+    }
+
+    // ========== LATEST LAUNCHES ==========
+    function loadLatest() {
+      const vehicles = API.getLatestVehicles(4);
+      const grid = document.getElementById('latestGrid');
+      grid.innerHTML = vehicles.map(v => `
+        <div class="latest-card">
+          <div class="latest-image-wrap">
+            <img src="${v.image}" alt="${v.title}" loading="lazy">
+            <span class="launch-badge">Just Launched</span>
+          </div>
+          <div class="latest-body">
+            <div class="latest-title">${v.title}</div>
+            <div class="latest-price">${v.price_display}</div>
+            <div class="latest-range"><i class="bi bi-battery-charging"></i> ${v.true_range} km | ${v.top_speed} km/h</div>
+            <a href="vehicle.html?slug=${v.slug}" class="btn-view">View Details</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // ========== COMPARE VS ==========
+    function loadCompareVs() {
+      const comparisons = API.getComparisons().slice(0, 4);
+      const grid = document.getElementById('compareVsGrid');
+      grid.innerHTML = comparisons.map(c => {
+        const vehicles = API.getComparisonByIds(c.vehicle_ids);
+        if (vehicles.length < 2) return '';
+        return `
+          <div class="compare-vs-card">
+            <div class="vs-vehicles">
+              <div class="vs-vehicle">
+                <img src="${vehicles[0].image}" alt="${vehicles[0].title}">
+                <div class="vs-name">${vehicles[0].title}</div>
+                <div class="vs-price">${vehicles[0].price_display}</div>
+              </div>
+              <div class="vs-divider">VS</div>
+              <div class="vs-vehicle">
+                <img src="${vehicles[1].image}" alt="${vehicles[1].title}">
+                <div class="vs-name">${vehicles[1].title}</div>
+                <div class="vs-price">${vehicles[1].price_display}</div>
+              </div>
+            </div>
+            <div class="vs-footer">
+              <div class="vs-category">${c.category}</div>
+              <a href="compare.html?ids=${c.vehicle_ids.join(',')}" class="btn-compare">Compare Now</a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // ========== BUDGET TILES ==========
+    function loadBudgetTiles() {
+      const ranges = API.getBudgetRanges();
+      const counts = ranges.map(r => API.getVehiclesByBudget(r.min, r.max === Infinity ? undefined : r.max).length);
+      const icons = ['<i class="bi bi-cash-stack"></i>', '<i class="bi bi-wallet2"></i>', '<i class="bi bi-credit-card"></i>', '<i class="bi bi-cash"></i>', '<i class="bi bi-bank"></i>', '<i class="bi bi-gem"></i>'];
+      const grid = document.getElementById('budgetTiles');
+      grid.innerHTML = ranges.map((r, i) => `
+        <a href="electric-vehicles.html?min_price=${r.min}${r.max < Infinity ? '&max_price=' + r.max : ''}" class="browse-tile">
+          <div class="tile-icon">${icons[i]}</div>
+          <div class="tile-info"><div class="tile-label">${r.label}</div><div class="tile-count">${counts[i]} EVs</div></div>
+        </a>
+      `).join('');
+    }
+
+    // ========== BRANDS ==========
+    function loadBrands() {
+      const grid = document.getElementById('brandsGrid');
+      const companies = API.companies.slice(0, 12);
+      grid.innerHTML = companies.map(c => `
+        <a href="companies.html?brand=${c.slug}" class="brand-item" title="${c.title}">
+          <img src="${c.logo}" alt="${c.title}" onerror="this.src='https://via.placeholder.com/80x40?text=${encodeURIComponent(c.vehicle_prefix)}'">
+          <span>${c.vehicle_prefix}</span>
+        </a>
+      `).join('');
+    }
+
+    // ========== CHARGING STATIONS ==========
+    function loadChargingFilters() {
+      const states = API.getChargingStates();
+      document.getElementById('chargingState').innerHTML = '<option value="">All States</option>' + states.map(s => `<option value="${s}">${s}</option>`).join('');
+    }
+
+    function onChargingStateChange() {
+      const state = document.getElementById('chargingState').value;
+      const cities = API.getChargingCitiesByState(state);
+      document.getElementById('chargingCity').innerHTML = '<option value="">All Cities</option>' + cities.map(c => `<option value="${c}">${c}</option>`).join('');
+      filterChargingStations();
+    }
+
+    function filterChargingStations() {
+      const state = document.getElementById('chargingState').value;
+      const city = document.getElementById('chargingCity').value;
+      const stations = API.getChargingStations(state, city);
+      document.getElementById('chargingCount').textContent = `Showing ${stations.length} charging station${stations.length !== 1 ? 's' : ''}`;
+      const grid = document.getElementById('chargingGrid');
+      if (stations.length === 0) {
+        grid.innerHTML = '<div class="no-results"><h3>No charging stations found</h3></div>';
+        return;
+      }
+      grid.innerHTML = stations.map(s => `
+        <div class="charging-card">
+          <div class="cs-name">${s.name}</div>
+          <span class="cs-brand">${s.brand}</span>
+          <div class="cs-info"><i class="bi bi-geo-alt"></i>${s.address}</div>
+          <div class="cs-info"><i class="bi bi-lightning"></i>${s.type} - ${s.power}</div>
+          <div class="cs-info"><i class="bi bi-clock"></i>${s.timings}</div>
+          <span class="cs-status"><i class="bi bi-check-circle"></i> ${s.status}</span>
+        </div>
+      `).join('');
+    }
+
+    // ========== NEWS ==========
+    function loadNews() {
+      const blogs = API.getBlogs().slice(0, 3);
+      const grid = document.getElementById('newsGrid');
+      grid.innerHTML = blogs.map(b => `
+        <a href="blog-article.html?slug=${b.slug}" class="news-card">
+          <img src="${b.featureImage}" alt="${b.title}" class="news-image" loading="lazy">
+          <div class="news-body">
+            <span class="news-category">${b.category}</span>
+            <h3 class="news-title">${b.title}</h3>
+            <p class="news-excerpt">${b.description}</p>
+            <div class="news-meta">
+              <span><i class="bi bi-calendar3"></i> ${new Date(b.date).toLocaleDateString('en-IN')}</span>
+              <span><i class="bi bi-eye"></i> ${b.viewCount} views</span>
+            </div>
+          </div>
+        </a>
+      `).join('');
+    }
+
+    // ========== FAQs ==========
+    function loadFAQs() {
+      const faqs = API.getFAQs();
+      document.getElementById('faqList').innerHTML = faqs.map(f => `
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+          <div class="faq-question">
+            <span>${f.question}</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">${f.answer}</div>
+        </div>
+      `).join('');
+    }
+
+    // ========== NEWSLETTER ==========
+    function subscribeNewsletter() {
+      const email = document.getElementById('newsletterEmail').value;
+      if (email && email.includes('@')) {
+        alert('Thank you for subscribing! You will receive the latest EV updates.');
+        document.getElementById('newsletterEmail').value = '';
+      } else {
+        alert('Please enter a valid email address.');
+      }
+    }
+
+    // ========== POPULATE BRAND DROPDOWN ==========
+    function populateBrandDropdown() {
+      const brands = API.getBrands();
+      const select = document.getElementById('heroBrand');
+      brands.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b.slug;
+        opt.textContent = b.name;
+        select.appendChild(opt);
+      });
+    }
+
+    // ========== INIT ==========
+    async function init() {
+      await API.loadData();
+      BannerCarousel.init();
+      populateBrandDropdown();
+      loadSpotlight('Scooter');
+      loadPopular();
+      loadUpcoming();
+      loadLatest();
+      loadCompareVs();
+      loadBudgetTiles();
+      loadBrands();
+      loadChargingFilters();
+      filterChargingStations();
+      loadNews();
+      loadFAQs();
+    }
+
+    init();
+  </script>
+</body>
+</html>

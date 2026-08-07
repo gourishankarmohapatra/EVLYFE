@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Find Electric Vehicle Dealers | EVLYFE</title>
+  <meta name="description" content="Find authorized electric vehicle dealers and showrooms across India. Locate EV dealers by state and city.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.evlyfe.com/dealer-showrooms.html">
+  <meta property="og:title" content="Find Electric Vehicle Dealers | EVLYFE">
+  <meta property="og:description" content="Find authorized electric vehicle dealers and showrooms across India. Locate EV dealers by state and city.">
+  <meta property="og:url" content="https://www.evlyfe.com/dealer-showrooms.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.evlyfe.com/images/logo.png">
+  <meta property="og:site_name" content="EVLYFE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Find Electric Vehicle Dealers | EVLYFE">
+  <meta name="twitter:description" content="Find authorized electric vehicle dealers and showrooms across India. Locate EV dealers by state and city.">
+  <meta name="twitter:image" content="https://www.evlyfe.com/images/logo.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y69EN12KH"></script>
+  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-4Y69EN12KH');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6950966761441733" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.evlyfe.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Dealer Showrooms", "item": "https://www.evlyfe.com/dealer-showrooms.html"}
+    ]
+  }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <div id="app">
+    <header id="mainHeader"></header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>EV Dealer Showrooms</h1>
+        <p class="breadcrumb"><a href="index.html">Home</a> / Dealer Showrooms</p>
+      </div>
+    </section>
+
+    <section class="dealer-section">
+      <div class="container">
+        <div style="text-align:center;margin-bottom:30px;">
+          <h2 style="font-size:24px;font-weight:600;">Find Dealers In Your City</h2>
+          <p style="font-size:14px;color:#666;">Locate authorized EV dealers across India</p>
+        </div>
+
+        <div class="dealer-filters">
+          <div class="filter-row">
+            <select id="stateFilter" onchange="onStateChange()">
+              <option value="">All States</option>
+            </select>
+            <select id="cityFilter" onchange="filterDealers()">
+              <option value="">All Cities</option>
+            </select>
+            <select id="brandFilter" onchange="filterDealers()">
+              <option value="">All Brands</option>
+            </select>
+          </div>
+        </div>
+
+        <p id="dealerCount" style="font-size:14px;color:#666;margin-bottom:15px;"></p>
+        <div class="dealer-grid" id="dealerGrid"></div>
+      </div>
+    </section>
+
+    <footer id="mainFooter"></footer>
+    <div id="backToTopBtn"></div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
+    document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
+    document.getElementById('backToTopBtn').innerHTML = Navigation.getBackToTop();
+
+    function renderFilters() {
+      const states = API.getStates();
+      const brands = [...new Set(API.dealers.map(d => d.brand))];
+      document.getElementById('stateFilter').innerHTML = '<option value="">All States</option>' + states.map(s => `<option value="${s}">${s}</option>`).join('');
+      document.getElementById('brandFilter').innerHTML = '<option value="">All Brands</option>' + brands.sort().map(b => `<option value="${b}">${b}</option>`).join('');
+    }
+
+    function onStateChange() {
+      const state = document.getElementById('stateFilter').value;
+      const cities = API.getCitiesByState(state);
+      document.getElementById('cityFilter').innerHTML = '<option value="">All Cities</option>' + cities.map(c => `<option value="${c}">${c}</option>`).join('');
+      filterDealers();
+    }
+
+    function filterDealers() {
+      const state = document.getElementById('stateFilter').value;
+      const city = document.getElementById('cityFilter').value;
+      const brand = document.getElementById('brandFilter').value;
+      let dealers = API.getDealers(state, city);
+      if (brand) dealers = dealers.filter(d => d.brand === brand);
+
+      document.getElementById('dealerCount').textContent = `Showing ${dealers.length} dealer${dealers.length !== 1 ? 's' : ''}`;
+
+      const grid = document.getElementById('dealerGrid');
+      if (dealers.length === 0) {
+        grid.innerHTML = '<div class="no-results"><h3>No dealers found</h3><p>Try adjusting your filters</p></div>';
+        return;
+      }
+
+      grid.innerHTML = dealers.map(d => `
+        <div class="dealer-card">
+          <span class="dealer-brand">${d.brand}</span>
+          <h3 class="dealer-name">${d.name}</h3>
+          <p class="dealer-info"><i class="bi bi-geo-alt"></i>${d.address}</p>
+          <p class="dealer-info"><i class="bi bi-telephone"></i>${d.phone}</p>
+          <p class="dealer-info"><i class="bi bi-envelope"></i>${d.email}</p>
+          <p class="dealer-info"><i class="bi bi-clock"></i>${d.timings}</p>
+          <div class="dealer-services">
+            ${d.services.map(s => `<span>${s}</span>`).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    async function init() { await API.loadData(); renderFilters(); filterDealers(); }
+    init();
+  </script>
+</body>
+</html>

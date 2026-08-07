@@ -1,0 +1,53 @@
+{
+  "comparisons": [
+    {
+      "_id": "c01",
+      "title": "Tata Nexon EV vs Mahindra BE 6",
+      "category": "Electric Car",
+      "vehicle_ids": ["v001", "v002"],
+      "cover_image": "https://via.placeholder.com/600x300/1565C0/ffffff?text=Nexon+EV+vs+BE+6"
+    },
+    {
+      "_id": "c02",
+      "title": "Ola S1 Pro Gen 3 vs Ather 450X Gen 3",
+      "category": "Electric Scooter",
+      "vehicle_ids": ["v003", "v004"],
+      "cover_image": "https://via.placeholder.com/600x300/E65100/ffffff?text=S1+Pro+vs+450X"
+    },
+    {
+      "_id": "c03",
+      "title": "TVS iQube S vs Bajaj Chetak C3501",
+      "category": "Electric Scooter",
+      "vehicle_ids": ["v005", "v006"],
+      "cover_image": "https://via.placeholder.com/600x300/7B1FA2/ffffff?text=iQube+vs+Chetak"
+    },
+    {
+      "_id": "c04",
+      "title": "Ultraviolette X-47 vs Raptee T30",
+      "category": "Electric Bike",
+      "vehicle_ids": ["v009", "v010"],
+      "cover_image": "https://via.placeholder.com/600x300/212121/ffffff?text=X-47+vs+T30"
+    },
+    {
+      "_id": "c05",
+      "title": "Tata Punch EV vs MG Comet EV",
+      "category": "Electric Car",
+      "vehicle_ids": ["v015", "v007"],
+      "cover_image": "https://via.placeholder.com/600x300/2E7D32/ffffff?text=Punch+EV+vs+Comet"
+    },
+    {
+      "_id": "c06",
+      "title": "Ola Roadster X vs Matter AERA 5000+",
+      "category": "Electric Bike",
+      "vehicle_ids": ["v011", "v012"],
+      "cover_image": "https://via.placeholder.com/600x300/3F51B5/ffffff?text=Roadster+vs+AERA"
+    },
+    {
+      "_id": "c07",
+      "title": "Hyundai Ioniq 5 vs VinFast VF8",
+      "category": "Electric Car",
+      "vehicle_ids": ["v014", "v017"],
+      "cover_image": "https://via.placeholder.com/600x300/0D47A1/ffffff?text=Ioniq+5+vs+VF8"
+    }
+  ]
+}

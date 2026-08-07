@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Electric Vehicles in India 2026 - EV Prices, Range, Images & Reviews | EVLYFE</title>
+  <meta name="description" content="Browse 200+ electric vehicles in India. Compare EV prices, range, specifications, images, and expert reviews.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.evlyfe.com/electric-vehicles.html">
+  <meta property="og:title" content="Electric Vehicles in India 2026 | EVLYFE">
+  <meta property="og:description" content="Browse 200+ electric vehicles in India. Compare EV prices, range, specifications, images, and expert reviews.">
+  <meta property="og:url" content="https://www.evlyfe.com/electric-vehicles.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.evlyfe.com/images/logo.png">
+  <meta property="og:site_name" content="EVLYFE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Electric Vehicles in India 2026 | EVLYFE">
+  <meta name="twitter:description" content="Browse 200+ electric vehicles in India. Compare EV prices, range, specifications, images, and expert reviews.">
+  <meta name="twitter:image" content="https://www.evlyfe.com/images/logo.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y69EN12KH"></script>
+  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-4Y69EN12KH');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6950966761441733" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.evlyfe.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Electric Vehicles", "item": "https://www.evlyfe.com/electric-vehicles.html"}
+    ]
+  }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <div id="app">
+    <header id="mainHeader"></header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Electric Vehicles in India 2026</h1>
+        <p class="breadcrumb">
+          <a href="index.html">Home</a> / Electric Vehicles
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== BANNER CAROUSEL ========== -->
+    <section class="banner-carousel-section">
+      <div id="bannerCarousel"></div>
+    </section>
+
+    <section class="intro-section">
+      <div class="container">
+        <p class="read-more-text" id="introText">
+          Looking for the best electric vehicles in India? EVLYFE lists 200+ electric vehicles across all categories - electric cars, scooters, bikes, and commercial vehicles from top brands like Tata, Mahindra, Ola, Ather, MG, and TVS. Compare EV prices, range, specifications, images, and expert reviews. Whether you're looking for an electric car, e-scooter, e-bike, or commercial EV, find your perfect electric vehicle on EVLYFE. Check the latest July 2026 prices, battery capacity, charging time, and range for all electric vehicles in India.
+        </p>
+        <button class="read-more-btn" onclick="toggleReadMore()">Read More</button>
+      </div>
+    </section>
+
+    <section class="listing-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <div class="filter-sidebar" id="filterSidebar"></div>
+          </div>
+          <div class="col-12 col-lg-9">
+            <button class="mobile-filter-toggle" onclick="openFilterDrawer()">
+              <i class="bi bi-funnel"></i> Filter & Sort
+            </button>
+            <div class="vehicle-grid" id="vehicleGrid"></div>
+            <div class="pagination" id="pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>FAQs On Electric Vehicles</h2>
+        </div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <div class="filter-drawer" id="filterDrawer">
+      <div class="filter-drawer-content" id="filterDrawerContent"></div>
+    </div>
+
+    <footer id="mainFooter"></footer>
+    <div id="backToTopBtn"></div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/banner-carousel.js"></script>
+  <script>
+    document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
+    document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
+    document.getElementById('backToTopBtn').innerHTML = Navigation.getBackToTop();
+
+    let currentPage = 1;
+    const ITEMS_PER_PAGE = 9;
+
+    // Check URL params
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchQuery = urlParams.get('search') || '';
+    const brandFilter = urlParams.get('brand') || '';
+
+    function toggleReadMore() {
+      const text = document.getElementById('introText');
+      text.classList.toggle('expanded');
+      text.nextElementSibling.textContent = text.classList.contains('expanded') ? 'Read Less' : 'Read More';
+    }
+
+    function openFilterDrawer() {
+      const drawer = document.getElementById('filterDrawer');
+      const content = document.getElementById('filterDrawerContent');
+      const sidebar = document.getElementById('filterSidebar');
+      content.innerHTML = `
+        <div class="drawer-header">
+          <h3>Filters</h3>
+          <button class="drawer-close" onclick="closeFilterDrawer()">&times;</button>
+        </div>
+        ${sidebar.innerHTML}
+      `;
+      drawer.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeFilterDrawer() {
+      document.getElementById('filterDrawer').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function renderFilters() {
+      const types = API.getVehicleTypes();
+      const brands = API.getBrands();
+      const filterHTML = `
+        <h3>Filter By</h3>
+        <div class="filter-group">
+          <h4>Vehicle Type</h4>
+          <label><input type="checkbox" name="vehicle_type" value="2" onchange="applyFilters()"> Electric Scooters (${types['Scooter'] || 0})</label>
+          <label><input type="checkbox" name="vehicle_type" value="1" onchange="applyFilters()"> Electric Bikes (${types['Bike'] || 0})</label>
+          <label><input type="checkbox" name="vehicle_type" value="10" onchange="applyFilters()"> Electric Cars (${types['Car'] || 0})</label>
+          <label><input type="checkbox" name="vehicle_type" value="3" onchange="applyFilters()"> Electric Commercial (${types['Commercial'] || 0})</label>
+        </div>
+        <div class="filter-group">
+          <h4>Brand</h4>
+          ${brands.map(b => `
+            <label><input type="checkbox" name="brand" value="${b.slug}" ${b.slug === brandFilter ? 'checked' : ''} onchange="applyFilters()"> ${b.name} (${b.vehicle_count})</label>
+          `).join('')}
+        </div>
+        <div class="filter-group">
+          <h4>Sort By</h4>
+          <select name="sort" onchange="applyFilters()">
+            <option value="popular">Popular</option>
+            <option value="price_low">Price: Low to High</option>
+            <option value="price_high">Price: High to Low</option>
+            <option value="range">Range: High to Low</option>
+            <option value="speed">Top Speed: High to Low</option>
+            <option value="rating">Rating: High to Low</option>
+          </select>
+        </div>
+        <div class="filter-actions">
+          <button class="btn-apply" onclick="applyFilters()">Apply Filters</button>
+          <button class="btn-clear" onclick="clearFilters()">Clear All</button>
+        </div>
+      `;
+      document.getElementById('filterSidebar').innerHTML = filterHTML;
+    }
+
+    function getFilterValues() {
+      const vehicleTypes = [...document.querySelectorAll('input[name="vehicle_type"]:checked')].map(c => c.value).join(',');
+      const brands = [...document.querySelectorAll('input[name="brand"]:checked')].map(c => c.value).join(',');
+      const sort = document.querySelector('select[name="sort"]')?.value || 'popular';
+      return { vehicle_type: vehicleTypes, brand: brands, sort, search: searchQuery };
+    }
+
+    function applyFilters() {
+      currentPage = 1;
+      loadVehicles();
+      closeFilterDrawer();
+    }
+
+    function clearFilters() {
+      document.querySelectorAll('input[type="checkbox"]').forEach(c => c.checked = false);
+      document.querySelector('select[name="sort"]').value = 'popular';
+      currentPage = 1;
+      loadVehicles();
+      closeFilterDrawer();
+    }
+
+    function loadVehicles() {
+      const filters = getFilterValues();
+      filters.page = currentPage;
+      filters.limit = ITEMS_PER_PAGE;
+      const data = API.getVehicles(filters);
+      renderVehicleGrid(data.docs);
+      renderPagination(data);
+    }
+
+    function renderVehicleGrid(vehicles) {
+      const grid = document.getElementById('vehicleGrid');
+      if (vehicles.length === 0) {
+        grid.innerHTML = '<div class="no-results col-12"><h3>No vehicles found</h3><p>Try adjusting your filters</p></div>';
+        return;
+      }
+      grid.innerHTML = vehicles.map(v => `
+        <div class="vehicle-card">
+          <img src="${v.image}" alt="${v.title}" class="card-image" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">${v.title}</h3>
+            <p class="card-subtitle">by ${v.company}</p>
+            <div class="card-stats">
+              <div class="stat-item">
+                <div class="stat-value">${v.price_display}</div>
+                <div class="stat-label">Ex-Showroom</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">${v.true_range} km</div>
+                <div class="stat-label">True Range</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">${v.top_speed} km/h</div>
+                <div class="stat-label">Top Speed</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">${v.charging_time.split(' ')[0]} hrs</div>
+                <div class="stat-label">Charging</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="vehicle.html?slug=${v.slug}" class="btn-view-details">View Details <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderPagination(data) {
+      const container = document.getElementById('pagination');
+      if (data.totalPages <= 1) { container.innerHTML = ''; return; }
+      let html = '';
+      html += `<button ${!data.hasPrevPage ? 'disabled' : ''} onclick="goToPage(${data.prevPage})">Prev</button>`;
+      for (let i = 1; i <= data.totalPages; i++) {
+        html += `<button class="${i === data.page ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+      }
+      html += `<button ${!data.hasNextPage ? 'disabled' : ''} onclick="goToPage(${data.nextPage})">Next</button>`;
+      html += `<span class="page-info">Page ${data.page} of ${data.totalPages}</span>`;
+      container.innerHTML = html;
+    }
+
+    function goToPage(page) {
+      currentPage = page;
+      loadVehicles();
+      window.scrollTo({ top: 300, behavior: 'smooth' });
+    }
+
+    function loadFAQs() {
+      const list = document.getElementById('faqList');
+      const faqs = API.getFAQs();
+      list.innerHTML = faqs.map(f => `
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+          <div class="faq-question">
+            <span>${f.question}</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">${f.answer}</div>
+        </div>
+      `).join('');
+    }
+
+    async function init() {
+      await API.loadData();
+      BannerCarousel.init();
+      renderFilters();
+      loadVehicles();
+      loadFAQs();
+    }
+
+    init();
+  </script>
+</body>
+</html>

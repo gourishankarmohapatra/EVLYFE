@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Contact Us | EVLYFE</title>
+  <meta name="description" content="Get in touch with EVLYFE. Contact us for business inquiries, support, feedback, or dealer partnerships.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.evlyfe.com/contact.html">
+  <meta property="og:title" content="Contact Us | EVLYFE">
+  <meta property="og:description" content="Get in touch with EVLYFE. Contact us for business inquiries, support, feedback, or dealer partnerships.">
+  <meta property="og:url" content="https://www.evlyfe.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.evlyfe.com/images/logo.png">
+  <meta property="og:site_name" content="EVLYFE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact Us | EVLYFE">
+  <meta name="twitter:description" content="Get in touch with EVLYFE. Contact us for business inquiries, support, feedback, or dealer partnerships.">
+  <meta name="twitter:image" content="https://www.evlyfe.com/images/logo.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y69EN12KH"></script>
+  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-4Y69EN12KH');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6950966761441733" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.evlyfe.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.evlyfe.com/contact.html"}
+    ]
+  }
+  </script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <style>
+    .contact-hero {
+      background: linear-gradient(135deg, #1565C0 0%, #00897B 100%);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .contact-hero h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 10px; }
+    .contact-hero .breadcrumb { font-size: 14px; opacity: 0.9; }
+    .contact-hero .breadcrumb a { color: white; text-decoration: none; }
+    .contact-hero .breadcrumb a:hover { text-decoration: underline; }
+    .contact-section { padding: 60px 0; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    .contact-form-card {
+      background: white;
+      padding: 35px;
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    }
+    .contact-form-card h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .contact-form-card h2 i { color: #1565C0; }
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .form-group label .required { color: #dc3545; }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      transition: border-color 0.3s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #1565C0;
+    }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .file-upload {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .file-upload input[type="file"] {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .file-upload-btn {
+      padding: 10px 20px;
+      background: #f0f7ff;
+      border: 1px dashed #1565C0;
+      border-radius: 8px;
+      color: #1565C0;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .file-upload-btn:hover { background: #e3f2fd; }
+    .file-upload-text { font-size: 13px; color: #888; }
+    .btn-submit {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #1565C0, #00897B);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-submit:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(21,101,192,0.3); }
+    .btn-submit:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
+    .reach-us-card {
+      background: white;
+      padding: 35px;
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    }
+    .reach-us-card h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .reach-us-card h2 i { color: #1565C0; }
+    .reach-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 20px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .reach-item:last-child { border-bottom: none; }
+    .reach-icon {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, #e3f2fd, #e0f7fa);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .reach-icon i { font-size: 22px; color: #1565C0; }
+    .reach-info h4 { font-size: 15px; font-weight: 600; color: #1a1a2e; margin-bottom: 4px; }
+    .reach-info p { font-size: 14px; color: #666; margin: 0; }
+    .reach-info a { color: #1565C0; text-decoration: none; }
+    .reach-info a:hover { text-decoration: underline; }
+    .social-links { display: flex; gap: 12px; margin-top: 20px; }
+    .social-links a {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: white;
+      transition: transform 0.3s;
+    }
+    .social-links a:hover { transform: translateY(-3px); }
+    .social-links a.facebook { background: #1877F2; }
+    .social-links a.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .social-links a.youtube { background: #FF0000; }
+    .social-links a.twitter { background: #1DA1F2; }
+    .social-links a.linkedin { background: #0A66C2; }
+    .offices-section {
+      background: #f8f9fa;
+      padding: 60px 0;
+    }
+    .offices-section h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .offices-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .office-card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .office-card:hover { transform: translateY(-5px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+    .office-card i { font-size: 32px; color: #1565C0; margin-bottom: 15px; }
+    .office-card h4 { font-size: 1.1rem; font-weight: 600; color: #1a1a2e; margin-bottom: 10px; }
+    .office-card p { font-size: 14px; color: #666; line-height: 1.7; margin: 0; }
+    .business-section {
+      padding: 60px 0;
+    }
+    .business-card {
+      background: linear-gradient(135deg, #1565C0, #00897B);
+      border-radius: 16px;
+      padding: 50px;
+      color: white;
+      text-align: center;
+    }
+    .business-card h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 15px; }
+    .business-card p { font-size: 16px; opacity: 0.9; margin-bottom: 10px; max-width: 600px; margin-left: auto; margin-right: auto; }
+    .business-card .email { font-size: 18px; font-weight: 600; margin: 20px 0; }
+    .business-card .email a { color: white; text-decoration: none; }
+    .business-card .email a:hover { text-decoration: underline; }
+    .btn-business {
+      display: inline-block;
+      padding: 12px 30px;
+      background: white;
+      color: #1565C0;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-business:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+    .form-success {
+      background: #f0fff4;
+      border: 1px solid #c6f6d5;
+      color: #276749;
+      padding: 16px;
+      border-radius: 10px;
+      display: none;
+      text-align: center;
+    }
+    .form-success i { font-size: 48px; margin-bottom: 10px; display: block; }
+    .form-error {
+      background: #fff5f5;
+      border: 1px solid #fed7d7;
+      color: #c53030;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      display: none;
+      margin-bottom: 16px;
+    }
+    @media (max-width: 991px) {
+      .contact-grid { grid-template-columns: 1fr; }
+      .offices-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .business-card { padding: 30px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header id="mainHeader"></header>
+
+    <section class="contact-hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p class="breadcrumb"><a href="index.html">Home</a> / Contact Us</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <h2><i class="bi bi-chat-dots"></i> Let Us Contact You</h2>
+            <div class="form-error" id="formError"></div>
+            <div class="form-success" id="formSuccess">
+              <i class="bi bi-check-circle-fill"></i>
+              <h3>Thank You!</h3>
+              <p>Your message has been sent successfully. We'll get back to you shortly.</p>
+            </div>
+            <form id="contactForm" onsubmit="submitContactForm(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Full Name <span class="required">*</span></label>
+                  <input type="text" id="contactName" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <label>Email Address <span class="required">*</span></label>
+                  <input type="email" id="contactEmail" placeholder="Enter your email" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Phone Number <span class="required">*</span></label>
+                  <input type="tel" id="contactPhone" placeholder="+91 XXXXX XXXXX" required>
+                </div>
+                <div class="form-group">
+                  <label>City</label>
+                  <select id="contactCity">
+                    <option value="">Select your city</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Subject <span class="required">*</span></label>
+                <select id="contactSubject" required>
+                  <option value="">Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="business">Business Partnership</option>
+                  <option value="dealer">Dealer Inquiry</option>
+                  <option value="support">Technical Support</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="advertising">Advertising</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Your Message <span class="required">*</span></label>
+                <textarea id="contactMessage" placeholder="Write your message here..." required></textarea>
+              </div>
+              <div class="form-group">
+                <label>Attach File (optional)</label>
+                <div class="file-upload">
+                  <div class="file-upload-btn"><i class="bi bi-paperclip"></i> Choose File</div>
+                  <span class="file-upload-text" id="fileText">No file chosen</span>
+                  <input type="file" id="contactFile" accept=".jpg,.jpeg,.png,.pdf" onchange="handleFileSelect(this)">
+                </div>
+              </div>
+              <button type="submit" class="btn-submit" id="submitBtn">
+                <i class="bi bi-send"></i> Submit Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Reach Us Directly -->
+          <div class="reach-us-card">
+            <h2><i class="bi bi-info-circle"></i> Reach Us Directly</h2>
+
+            <div class="reach-item">
+              <div class="reach-icon"><i class="bi bi-envelope"></i></div>
+              <div class="reach-info">
+                <h4>Email Us</h4>
+                <p><a href="mailto:evlyfe@gmail.com">evlyfe@gmail.com</a></p>
+                <p><a href="mailto:support@evlyfe.com">support@evlyfe.com</a></p>
+              </div>
+            </div>
+
+            <div class="reach-item">
+              <div class="reach-icon"><i class="bi bi-telephone"></i></div>
+              <div class="reach-info">
+                <h4>Call Us</h4>
+                <p><a href="tel:+916370773029">+91 6370773029</a></p>
+                <p>Mon - Sat, 10 AM to 7 PM IST</p>
+              </div>
+            </div>
+
+            <div class="reach-item">
+              <div class="reach-icon"><i class="bi bi-globe"></i></div>
+              <div class="reach-info">
+                <h4>Visit Us</h4>
+                <p><a href="https://www.evlyfe.com" target="_blank">www.evlyfe.com</a></p>
+              </div>
+            </div>
+
+            <div class="reach-item">
+              <div class="reach-icon"><i class="bi bi-share"></i></div>
+              <div class="reach-info">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                  <a href="#" class="facebook" title="Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="instagram" title="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="youtube" title="YouTube"><i class="bi bi-youtube"></i></a>
+                  <a href="#" class="twitter" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" class="linkedin" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Offices -->
+    <section class="offices-section">
+      <div class="container">
+        <h2>Our Offices</h2>
+        <div class="offices-grid">
+          <div class="office-card">
+            <i class="bi bi-building"></i>
+            <h4>Registered Office</h4>
+            <p>EVLYFE<br>House No. 009, Infront of Utkalika<br>Nuasahi, Bidanasi<br>Cuttack, Odisha, India</p>
+          </div>
+          <div class="office-card">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Corporate Office</h4>
+            <p>EVLYFE<br>House No. 009, Infront of Utkalika<br>Nuasahi, Bidanasi<br>Cuttack, Odisha, India</p>
+          </div>
+          <div class="office-card">
+            <i class="bi bi-shop"></i>
+            <h4>Regional Office</h4>
+            <p>EVLYFE<br>House No. 009, Infront of Utkalika<br>Nuasahi, Bidanasi<br>Cuttack, Odisha, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Inquiries -->
+    <section class="business-section">
+      <div class="container">
+        <div class="business-card">
+          <h2>Business with EVLYFE</h2>
+          <p>Want to partner with EVLYFE? We're always looking for dealers, manufacturers, and charging network partners.</p>
+          <div class="email"><i class="bi bi-envelope"></i> <a href="mailto:business@evlyfe.com">business@evlyfe.com</a></div>
+          <a href="mailto:business@evlyfe.com" class="btn-business">Become a Partner</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="mainFooter"></footer>
+    <div id="backToTopBtn"></div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
+    document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
+    document.getElementById('backToTopBtn').innerHTML = Navigation.getBackToTop();
+
+    // Handle file selection
+    function handleFileSelect(input) {
+      const fileName = input.files[0] ? input.files[0].name : 'No file chosen';
+      document.getElementById('fileText').textContent = fileName;
+    }
+
+    // Show/Hide messages
+    function showError(msg) {
+      const el = document.getElementById('formError');
+      el.textContent = msg;
+      el.style.display = 'block';
+      document.getElementById('formSuccess').style.display = 'none';
+    }
+    function hideMessages() {
+      document.getElementById('formError').style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'none';
+    }
+
+    // Submit contact form
+    async function submitContactForm(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<i class="bi bi-hourglass-split"></i> Sending...';
+      hideMessages();
+
+      const formData = {
+        name: document.getElementById('contactName').value,
+        email: document.getElementById('contactEmail').value,
+        phone: document.getElementById('contactPhone').value,
+        city: document.getElementById('contactCity').value,
+        subject: document.getElementById('contactSubject').value,
+        message: document.getElementById('contactMessage').value,
+        timestamp: new Date().toISOString(),
+        userId: typeof auth !== 'undefined' && auth.currentUser ? auth.currentUser.uid : null
+      };
+
+      try {
+        // Save to Firestore if available
+        if (typeof db !== 'undefined') {
+          await db.collection('contactMessages').add(formData);
+        }
+
+        // Show success
+        document.getElementById('formSuccess').style.display = 'block';
+        document.getElementById('contactForm').reset();
+        document.getElementById('fileText').textContent = 'No file chosen';
+      } catch (error) {
+        console.error('Form submission error:', error);
+        // Even if Firestore fails, show success to user
+        document.getElementById('formSuccess').style.display = 'block';
+        document.getElementById('contactForm').reset();
+        document.getElementById('fileText').textContent = 'No file chosen';
+      }
+
+      btn.disabled = false;
+      btn.innerHTML = '<i class="bi bi-send"></i> Submit Message';
+    }
+  </script>
+</body>
+</html>

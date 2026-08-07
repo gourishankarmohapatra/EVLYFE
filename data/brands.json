@@ -1,0 +1,430 @@
+{
+  "brands": [
+    {
+      "_id": "b01",
+      "name": "Tata",
+      "slug": "tata",
+      "logo": "https://via.placeholder.com/100x50/1565C0/ffffff?text=Tata",
+      "vehicle_count": 15,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b02",
+      "name": "Mahindra",
+      "slug": "mahindra",
+      "logo": "https://via.placeholder.com/100x50/D32F2F/ffffff?text=Mahindra",
+      "vehicle_count": 13,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b03",
+      "name": "Ola",
+      "slug": "ola",
+      "logo": "https://cdn.evindia.online/uploads/company/295e9629edadfb18e5a6c8a4e2d6096a",
+      "vehicle_count": 6,
+      "vehicle_types": [
+        2,
+        1
+      ]
+    },
+    {
+      "_id": "b04",
+      "name": "Ather",
+      "slug": "ather",
+      "logo": "https://via.placeholder.com/100x50/4CAF50/ffffff?text=Ather",
+      "vehicle_count": 11,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b05",
+      "name": "TVS",
+      "slug": "tvs",
+      "logo": "https://via.placeholder.com/100x50/7B1FA2/ffffff?text=TVS",
+      "vehicle_count": 8,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b06",
+      "name": "Bajaj",
+      "slug": "bajaj",
+      "logo": "https://cdn.evindia.online/uploads/company/ff89880e890c88ac718a424b597ee0af",
+      "vehicle_count": 5,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b07",
+      "name": "MG",
+      "slug": "mg",
+      "logo": "https://via.placeholder.com/100x50/FF5722/ffffff?text=MG",
+      "vehicle_count": 7,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b08",
+      "name": "Ultraviolette",
+      "slug": "ultraviolette",
+      "logo": "https://cdn.evindia.online/uploads/company/2026-03-26-09-03-48-11c(350350)(14).png",
+      "vehicle_count": 10,
+      "vehicle_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "_id": "b09",
+      "name": "Raptee",
+      "slug": "raptee",
+      "logo": "https://cdn.evindia.online/uploads/company/2025-10-28-12-10-23-Untitleddesign.png",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b10",
+      "name": "Matter",
+      "slug": "matter",
+      "logo": "https://cdn.evindia.online/uploads/company/2022-11-27-08-11-07-blob",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b11",
+      "name": "VIDA",
+      "slug": "vida",
+      "logo": "https://via.placeholder.com/100x50/00BCD4/ffffff?text=VIDA",
+      "vehicle_count": 15,
+      "vehicle_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "_id": "b12",
+      "name": "Hyundai",
+      "slug": "hyundai",
+      "logo": "https://via.placeholder.com/100x50/0D47A1/ffffff?text=Hyundai",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b13",
+      "name": "Revolt",
+      "slug": "revolt",
+      "logo": "https://via.placeholder.com/100x50/B71C1C/ffffff?text=Revolt",
+      "vehicle_count": 6,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b14",
+      "name": "VinFast",
+      "slug": "vinfast",
+      "logo": "https://via.placeholder.com/100x50/006064/ffffff?text=VinFast",
+      "vehicle_count": 7,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b15",
+      "name": "River",
+      "slug": "river",
+      "logo": "https://via.placeholder.com/100x50/FF6F00/ffffff?text=River",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b16",
+      "name": "Oben Electric",
+      "slug": "oben-electric",
+      "logo": "https://cdn.evindia.online/uploads/company/2026-03-26-09-03-72-11c(350350)(12).png",
+      "vehicle_count": 7,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b17",
+      "name": "Ampere",
+      "slug": "ampere",
+      "logo": "https://via.placeholder.com/100x50/00695C/ffffff?text=Ampere",
+      "vehicle_count": 9,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b18",
+      "name": "Simple Energy",
+      "slug": "simple",
+      "logo": "https://cdn.evindia.online/uploads/company/378c63740ecbefd734a0cfc10075b606",
+      "vehicle_count": 3,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b19",
+      "name": "Suzuki",
+      "slug": "suzuki",
+      "logo": "https://cdn.evindia.online/uploads/company/2025-06-28-10-06-90-Untitleddesign(12).png",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b20",
+      "name": "Omega Seiki",
+      "slug": "omega",
+      "logo": "https://cdn.evindia.online/uploads/company/2022-11-08-10-11-22-OSM_banner.jpg",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        3
+      ]
+    },
+    {
+      "_id": "b21",
+      "name": "Kia",
+      "slug": "kia",
+      "logo": "https://cdn.evindia.online/uploads/company/2022-11-08-10-11-22-Kia_logo.png",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b22",
+      "name": "Pure EV",
+      "slug": "pure-ev",
+      "logo": "https://www.pureenergy.co.in/assets/frontend/images/home/logo.png",
+      "vehicle_count": 10,
+      "vehicle_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "_id": "b23",
+      "name": "Komaki",
+      "slug": "komaki",
+      "logo": "https://via.placeholder.com/100x50/E91E63/ffffff?text=Komaki",
+      "vehicle_count": 3,
+      "vehicle_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "_id": "b24",
+      "name": "Ducati",
+      "slug": "ducati",
+      "logo": "https://via.placeholder.com/100x50/D32F2F/ffffff?text=Ducati",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b25",
+      "name": "Odysse",
+      "slug": "odysse",
+      "logo": "https://via.placeholder.com/100x50/1565C0/ffffff?text=Odysse",
+      "vehicle_count": 8,
+      "vehicle_types": [
+        1,
+        2
+      ]
+    },
+    {
+      "_id": "b26",
+      "name": "Deltic",
+      "slug": "deltic",
+      "logo": "https://via.placeholder.com/100x50/4CAF50/ffffff?text=Deltic",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b27",
+      "name": "Citroen",
+      "slug": "citroen",
+      "logo": "https://via.placeholder.com/100x50/2196F3/ffffff?text=Citroen",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b28",
+      "name": "EeVe",
+      "slug": "eeve",
+      "logo": "https://via.placeholder.com/100x50/9C27B0/ffffff?text=EeVe",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b29",
+      "name": "Volvo",
+      "slug": "volvo",
+      "logo": "https://via.placeholder.com/100x50/003057/ffffff?text=Volvo",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b30",
+      "name": "Kinetic",
+      "slug": "kinetic",
+      "logo": "https://via.placeholder.com/100x50/FF5722/ffffff?text=Kinetic",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b31",
+      "name": "Royal Enfield",
+      "slug": "royal-enfield",
+      "logo": "https://via.placeholder.com/100x50/795548/ffffff?text=Royal+Enfield",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b32",
+      "name": "BMW",
+      "slug": "bmw",
+      "logo": "https://via.placeholder.com/100x50/1C69D4/ffffff?text=BMW",
+      "vehicle_count": 5,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b33",
+      "name": "Joy e-bike",
+      "slug": "joy-e-bike",
+      "logo": "https://via.placeholder.com/100x50/FF9800/ffffff?text=Joy+e-bike",
+      "vehicle_count": 4,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b34",
+      "name": "BattRE",
+      "slug": "batt-re",
+      "logo": "https://via.placeholder.com/100x50/607D8B/ffffff?text=BattRE",
+      "vehicle_count": 5,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b35",
+      "name": "Bounce Infinity",
+      "slug": "bounce-infinity",
+      "logo": "https://via.placeholder.com/100x50/7B1FA2/ffffff?text=Bounce",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b36",
+      "name": "BYD",
+      "slug": "byd",
+      "logo": "https://via.placeholder.com/100x50/0D47A1/ffffff?text=BYD",
+      "vehicle_count": 4,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b37",
+      "name": "Pravaig",
+      "slug": "pravaig",
+      "logo": "https://via.placeholder.com/100x50/388E3C/ffffff?text=Pravaig",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b38",
+      "name": "Maruti Suzuki",
+      "slug": "maruti",
+      "logo": "https://via.placeholder.com/100x50/E53935/ffffff?text=Maruti",
+      "vehicle_count": 1,
+      "vehicle_types": [
+        10
+      ]
+    },
+    {
+      "_id": "b39",
+      "name": "Okinawa",
+      "slug": "okinawa-scooters",
+      "logo": "https://via.placeholder.com/100x50/FF6F00/ffffff?text=Okinawa",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b40",
+      "name": "Hero Electric",
+      "slug": "hero-electric",
+      "logo": "https://via.placeholder.com/100x50/E53935/ffffff?text=Hero+Electric",
+      "vehicle_count": 12,
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "_id": "b41",
+      "name": "Tork Motors",
+      "slug": "tork-motors",
+      "logo": "https://via.placeholder.com/100x50/1565C0/ffffff?text=Tork",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "_id": "b42",
+      "name": "Yamaha",
+      "slug": "yamaha",
+      "logo": "https://via.placeholder.com/100x50/1565C0/ffffff?text=Yamaha",
+      "vehicle_count": 2,
+      "vehicle_types": [
+        2
+      ]
+    }
+  ]
+}

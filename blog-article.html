@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Blog Article | EVLYFE</title>
+  <meta name="description" content="Read the latest electric vehicle news, reviews, and guides on EVLYFE.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="EVLYFE">
+  <meta name="twitter:card" content="summary_large_image">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Y69EN12KH"></script>
+  <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-4Y69EN12KH');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6950966761441733" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <div id="app">
+    <header id="mainHeader"></header>
+
+    <section class="listing-section">
+      <div class="container">
+        <div class="blog-article" id="articleContent">
+          <div class="loading-spinner"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Related Articles</h2>
+        </div>
+        <div class="blog-grid" id="relatedBlogs"></div>
+      </div>
+    </section>
+
+    <footer id="mainFooter"></footer>
+    <div id="backToTopBtn"></div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/auth.js"></script>
+  <script>
+    document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
+    document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
+    document.getElementById('backToTopBtn').innerHTML = Navigation.getBackToTop();
+
+    const slug = new URLSearchParams(window.location.search).get('slug');
+
+    function loadArticle() {
+      if (!slug) {
+        document.getElementById('articleContent').innerHTML = '<div class="no-results"><h3>Article not found</h3></div>';
+        return;
+      }
+
+      const blog = API.getBlogBySlug(slug);
+      if (!blog) {
+        document.getElementById('articleContent').innerHTML = '<div class="no-results"><h3>Article not found</h3></div>';
+        return;
+      }
+
+      document.title = `${blog.title} | EVLYFE`;
+
+      // Dynamic SEO meta tags
+      const metaDesc = blog.description || `${blog.title} - Read on EVLYFE, India's leading electric vehicle platform.`;
+      document.querySelector('meta[name="description"]').setAttribute('content', metaDesc);
+      const pageUrl = `https://www.evlyfe.com/blog-article.html?slug=${blog.slug}`;
+      let canonicalEl = document.querySelector('link[rel="canonical"]');
+      if (!canonicalEl) { canonicalEl = document.createElement('link'); canonicalEl.rel = 'canonical'; document.head.appendChild(canonicalEl); }
+      canonicalEl.href = pageUrl;
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      const ogUrl = document.querySelector('meta[property="og:url"]');
+      const ogImage = document.querySelector('meta[property="og:image"]');
+      const twTitle = document.querySelector('meta[name="twitter:title"]');
+      const twDesc = document.querySelector('meta[name="twitter:description"]');
+      const twImage = document.querySelector('meta[name="twitter:image"]');
+      if (ogTitle) ogTitle.setAttribute('content', `${blog.title} | EVLYFE`);
+      if (ogDesc) ogDesc.setAttribute('content', metaDesc);
+      if (ogUrl) ogUrl.setAttribute('content', pageUrl);
+      if (ogImage) ogImage.setAttribute('content', blog.featureImage);
+      if (twTitle) twTitle.setAttribute('content', `${blog.title} | EVLYFE`);
+      if (twDesc) twDesc.setAttribute('content', metaDesc);
+      if (twImage) twImage.setAttribute('content', blog.featureImage);
+
+      // JSON-LD Article schema
+      const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": blog.title,
+        "description": metaDesc,
+        "image": blog.featureImage,
+        "author": {"@type": "Organization", "name": blog.author},
+        "publisher": {
+          "@type": "Organization",
+          "name": "EVLYFE",
+          "logo": {"@type": "ImageObject", "url": "https://www.evlyfe.com/images/logo.png"}
+        },
+        "datePublished": blog.date,
+        "url": pageUrl
+      };
+      const ldScript = document.createElement('script');
+      ldScript.type = 'application/ld+json';
+      ldScript.text = JSON.stringify(articleSchema);
+      document.head.appendChild(ldScript);
+
+      // JSON-LD BreadcrumbList
+      const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.evlyfe.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.evlyfe.com/blog.html"},
+          {"@type": "ListItem", "position": 3, "name": blog.title, "item": pageUrl}
+        ]
+      };
+      const bcScript = document.createElement('script');
+      bcScript.type = 'application/ld+json';
+      bcScript.text = JSON.stringify(breadcrumbSchema);
+      document.head.appendChild(bcScript);
+
+      document.getElementById('articleContent').innerHTML = `
+        <p class="breadcrumb" style="font-size:13px;margin-bottom:20px;">
+          <a href="index.html">Home</a> / <a href="blog.html">Blog</a> / ${blog.title}
+        </p>
+        <div class="article-header">
+          <span class="blog-category" style="display:inline-block;padding:4px 14px;background:linear-gradient(135deg,var(--gradient-start),var(--gradient-end));color:white;font-size:12px;font-weight:600;border-radius:12px;margin-bottom:12px;">${blog.category}</span>
+          <h1>${blog.title}</h1>
+          <p style="font-size:14px;color:#888;margin-bottom:15px;">
+            <i class="bi bi-person"></i> ${blog.author} &nbsp;|&nbsp;
+            <i class="bi bi-calendar3"></i> ${new Date(blog.date).toLocaleDateString('en-IN', {year:'numeric',month:'long',day:'numeric'})} &nbsp;|&nbsp;
+            <i class="bi bi-eye"></i> ${blog.viewCount} views
+          </p>
+          <img src="${blog.featureImage}" alt="${blog.title}" style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;">
+        </div>
+        <div class="article-content">
+          <p>${blog.description}</p>
+          <p>Electric vehicles are transforming the way we commute in India. With growing environmental concerns and rising fuel prices, more and more consumers are making the switch to electric mobility.</p>
+          <p>The Indian government has been actively promoting electric vehicles through various incentives and policies. The FAME II scheme, state-level subsidies, and tax benefits have made EVs more affordable than ever before.</p>
+          <p>When choosing an electric vehicle, consider factors like your daily commute distance, available charging infrastructure, total cost of ownership, and the manufacturer's service network in your area.</p>
+          <h3 style="font-size:20px;font-weight:600;margin:25px 0 12px;">Key Takeaways</h3>
+          <ul style="line-height:2;">
+            <li>Electric vehicles offer significant savings on fuel and maintenance costs</li>
+            <li>Home charging is convenient and cost-effective for most users</li>
+            <li>Real-world range is typically 70-85% of the claimed range in city driving</li>
+            <li>Modern EV batteries come with 8-year warranties from most manufacturers</li>
+            <li>The charging infrastructure in India is rapidly expanding</li>
+          </ul>
+          <p>The future of mobility is electric, and the time to make the switch is now. Visit <a href="electric-vehicles.html" style="color:var(--primary-blue);font-weight:600;">our electric vehicles page</a> to explore all available options and find the perfect EV for your needs.</p>
+        </div>
+      `;
+
+      // Related blogs
+      const related = API.getBlogs().filter(b => b.slug !== slug).slice(0, 3);
+      document.getElementById('relatedBlogs').innerHTML = related.map(b => `
+        <a href="blog-article.html?slug=${b.slug}" class="blog-card">
+          <img src="${b.featureImage}" alt="${b.title}" class="blog-image" loading="lazy">
+          <div class="blog-body">
+            <span class="blog-category">${b.category}</span>
+            <h3 class="blog-title">${b.title}</h3>
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> ${new Date(b.date).toLocaleDateString('en-IN')}</span>
+            </div>
+          </div>
+        </a>
+      `).join('');
+    }
+
+    async function init() { await API.loadData(); loadArticle(); }
+    init();
+  </script>
+</body>
+</html>
