@@ -260,11 +260,6 @@ const Navigation = {
         const btn = document.getElementById('backToTop');
         if (btn) btn.classList.toggle('visible', window.scrollY > 300);
       });
-
-      // Initialize all AdSense ad slots (one push per ins.adsbygoogle)
-      document.querySelectorAll('ins.adsbygoogle').forEach(() => {
-        window.adsbygoogle.push({});
-      });
     });
   },
 
