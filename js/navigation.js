@@ -165,7 +165,7 @@ const Navigation = {
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-6950966761441733"
-             data-ad-slot="2800185001"
+             data-ad-slot="8409936033"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
       </div>
@@ -247,6 +247,9 @@ const Navigation = {
   },
 
   init() {
+    // Initialize adsbygoogle array early (before AdSense script loads)
+    window.adsbygoogle = window.adsbygoogle || [];
+
     document.addEventListener('DOMContentLoaded', () => {
       this.updateCompareCount();
       const city = this.getSelectedCity();
@@ -258,10 +261,10 @@ const Navigation = {
         if (btn) btn.classList.toggle('visible', window.scrollY > 300);
       });
 
-      // Initialize AdSense ads
-      if (typeof adsbygoogle !== 'undefined') {
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      }
+      // Initialize all AdSense ad slots (one push per ins.adsbygoogle)
+      document.querySelectorAll('ins.adsbygoogle').forEach(() => {
+        window.adsbygoogle.push({});
+      });
     });
   },
 
