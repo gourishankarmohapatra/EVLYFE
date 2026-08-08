@@ -3733,3 +3733,9 @@ img {
   }
 }
 
+/* ========== AD CONTAINER ========== */
+.ad-container {
+  padding: 15px 0;
+  background: var(--bg-main);
+}
+

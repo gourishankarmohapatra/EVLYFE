@@ -145,11 +145,31 @@ const Navigation = {
 
       <!-- Location Toast -->
       <div class="location-toast" id="locationToast"></div>
+
+      <!-- Ad - Below Header -->
+      <div class="ad-container text-center">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-6950966761441733"
+             data-ad-slot="2800185001"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
     `;
   },
 
   getFooter() {
     return `
+      <!-- Ad - Above Footer -->
+      <div class="ad-container text-center">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-6950966761441733"
+             data-ad-slot="2800185001"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+
       <footer class="footer">
         <div class="container">
           <div class="row">
@@ -237,6 +257,11 @@ const Navigation = {
         const btn = document.getElementById('backToTop');
         if (btn) btn.classList.toggle('visible', window.scrollY > 300);
       });
+
+      // Initialize AdSense ads
+      if (typeof adsbygoogle !== 'undefined') {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }
     });
   },
 
