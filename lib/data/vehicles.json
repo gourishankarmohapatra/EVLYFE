@@ -2,7 +2,7 @@
   "totalDocs": 201,
   "limit": 10,
   "page": 1,
-  "totalPages": 15,
+  "totalPages": 1,
   "hasPrevPage": false,
   "hasNextPage": true,
   "prevPage": null,
@@ -7547,7 +7547,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah002",
@@ -7612,7 +7613,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah003",
@@ -7677,7 +7679,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah004",
@@ -7742,7 +7745,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah005",
@@ -7807,7 +7811,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah006",
@@ -7872,7 +7877,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah007",
@@ -7937,7 +7943,8 @@
           "url": "https://www.youtube.com/embed/TJi0QcFJYHQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "colors": []
     },
     {
       "_id": "v_mah008",
@@ -9936,12 +9943,10 @@
       "company": "Komaki Electric Vehicle",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 170000,
       "range": 220,
       "top_speed": 80,
-      "battery_capacity": "4.5 kWh",
+      "battery_capacity": 4.5,
       "charging_time": "3 hr",
-      "motor_power": "4 kW",
       "weight": null,
       "description": "The Komaki MX16 is a powerful electric bike with a 4.5 kWh battery, delivering 220 km range and 80 km/h top speed. Features 4 drive modes, hill hold, and smart connectivity.",
       "images": [
@@ -9971,7 +9976,21 @@
           "url": "https://www.youtube.com/embed/jI5Kj5rL3bY?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 170000,
+      "power": 4,
+      "rating": 0,
+      "review_count": 2227,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_komaki002",
@@ -9981,12 +10000,10 @@
       "company": "Komaki Electric Vehicle",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 79000,
       "range": 100,
       "top_speed": 70,
-      "battery_capacity": "2.88 kWh",
+      "battery_capacity": 2.88,
       "charging_time": "5 hr",
-      "motor_power": "3 kW",
       "weight": null,
       "description": "The Komaki Venice Classic is a stylish electric scooter with 100 km range and 70 km/h top speed. Comes with Eco, Sport, and Turbo drive modes.",
       "images": [
@@ -10022,7 +10039,21 @@
           "url": "https://www.youtube.com/embed/jI5Kj5rL3bY?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 79000,
+      "power": 3,
+      "rating": 0,
+      "review_count": 2375,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_komaki003",
@@ -10032,12 +10063,10 @@
       "company": "Komaki Electric Vehicle",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 68999,
       "range": 80,
       "top_speed": 25,
-      "battery_capacity": "1.8 kWh",
+      "battery_capacity": 1.8,
       "charging_time": "4-5 hr",
-      "motor_power": "1 kW",
       "weight": null,
       "description": "The Komaki XGT-KM is a compact electric scooter ideal for short commutes. Features ABS, anti-theft system, and road side assistance.",
       "images": [
@@ -10065,7 +10094,21 @@
           "url": "https://www.youtube.com/embed/jI5Kj5rL3bY?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 68999,
+      "power": 1,
+      "rating": 0,
+      "review_count": 1669,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse001",
@@ -10075,12 +10118,10 @@
       "company": "Odysse",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 166500,
       "range": 140,
       "top_speed": 80,
-      "battery_capacity": "4.32 kWh",
+      "battery_capacity": 4.32,
       "charging_time": "6 hr",
-      "motor_power": "4.3 kW",
       "weight": 150,
       "description": "The Odysse Evoqis is a high-performance electric bike with 140 km range and 80 km/h top speed. Features 4 riding modes and ABS.",
       "images": [
@@ -10109,7 +10150,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 166500,
+      "power": 4.3,
+      "rating": 0,
+      "review_count": 1345,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "6 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse002",
@@ -10119,12 +10174,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 100000,
       "range": 150,
       "top_speed": 25,
-      "battery_capacity": "2.6 kWh",
+      "battery_capacity": 2.6,
       "charging_time": "7 hr",
-      "motor_power": "0.25 kW",
       "weight": 75,
       "description": "The Odysse Racer Lite V2+ is a lightweight low-speed scooter with 150 km range. No license required.",
       "images": [
@@ -10150,7 +10203,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 100000,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 2519,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "7 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse003",
@@ -10160,12 +10227,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 55000,
       "range": 75,
       "top_speed": 25,
-      "battery_capacity": "1.8 kWh",
+      "battery_capacity": 1.8,
       "charging_time": "4-5 hr",
-      "motor_power": "0.25 kW",
       "weight": null,
       "description": "The Odysse Trot is an affordable LFP battery scooter with 75 km range. IP67 rated battery for durability.",
       "images": [
@@ -10188,7 +10253,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 55000,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 1406,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse004",
@@ -10198,12 +10277,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 77250,
       "range": 75,
       "top_speed": 25,
-      "battery_capacity": "1.3 kWh",
+      "battery_capacity": 1.3,
       "charging_time": "3.5 hr",
-      "motor_power": "0.25 kW",
       "weight": 75,
       "description": "The Odysse V2 is a compact low-speed electric scooter with 75 km range. Lightweight at 75 kg.",
       "images": [
@@ -10227,7 +10304,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 77250,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 749,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3.5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse005",
@@ -10237,12 +10328,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 59750,
       "range": 60,
       "top_speed": 25,
-      "battery_capacity": "0.336 kWh",
+      "battery_capacity": 0.336,
       "charging_time": "5 hr",
-      "motor_power": "0.25 kW",
       "weight": 90,
       "description": "The Odysse E2go is an entry-level electric scooter with VRLA battery. 60 km range and reverse mode.",
       "images": [
@@ -10267,7 +10356,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 59750,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 494,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse006",
@@ -10277,12 +10380,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 114500,
       "range": 170,
       "top_speed": 70,
-      "battery_capacity": "2.88 kWh",
+      "battery_capacity": 2.88,
       "charging_time": "4 hr",
-      "motor_power": "1.9 kW",
       "weight": 128,
       "description": "The Odysse Hawk Plus is a premium electric scooter with 170 km range and 70 km/h top speed. Features ABS and proximity lock/unlock.",
       "images": [
@@ -10311,7 +10412,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 114500,
+      "power": 1.9,
+      "rating": 0,
+      "review_count": 2864,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse007",
@@ -10321,12 +10436,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 96500,
       "range": 85,
       "top_speed": 45,
-      "battery_capacity": "1.44 kWh",
+      "battery_capacity": 1.44,
       "charging_time": "3.5 hr",
-      "motor_power": "1.9 kW",
       "weight": 128,
       "description": "The Odysse Hawk Lite is a mid-range scooter with 85 km range. Features CBS, cruise control, and predictive maintenance.",
       "images": [
@@ -10355,7 +10468,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 96500,
+      "power": 1.9,
+      "rating": 0,
+      "review_count": 1840,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3.5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_odysse008",
@@ -10365,12 +10492,10 @@
       "company": "Odysse",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 82500,
       "range": 75,
       "top_speed": 45,
-      "battery_capacity": "1.44 kWh",
+      "battery_capacity": 1.44,
       "charging_time": "3.5 hr",
-      "motor_power": "1.5 kW",
       "weight": 107,
       "description": "The Odysse Racer Lite is a stylish scooter with 75 km range and 45 km/h speed. 3 driving modes and ABS.",
       "images": [
@@ -10398,7 +10523,21 @@
           "url": "https://www.youtube.com/embed/T7fZ6V0x2h4?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 82500,
+      "power": 1.5,
+      "rating": 0,
+      "review_count": 2821,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3.5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_deltic001",
@@ -10408,12 +10547,10 @@
       "company": "Deltic EV",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 80999,
       "range": 80,
       "top_speed": 25,
-      "battery_capacity": "1.8 kWh",
+      "battery_capacity": 1.8,
       "charging_time": "3-4 hr",
-      "motor_power": "0.25 kW",
       "weight": 57,
       "description": "The Deltic DRIXX is an affordable electric scooter with LiFePO4 battery option. 80 km range and no license required.",
       "images": [
@@ -10440,7 +10577,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 80999,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 648,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_citroen001",
@@ -10450,12 +10601,10 @@
       "company": "Citroen EV",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 1150000,
       "range": 320,
       "top_speed": 107,
-      "battery_capacity": "29.2 kWh",
+      "battery_capacity": 29.2,
       "charging_time": "10 hr",
-      "motor_power": "56 kW",
       "weight": 1096,
       "description": "The Citroen e-C3 Live is an affordable electric hatchback with 320 km range. Features a spacious cabin and modern infotainment.",
       "images": [
@@ -10483,7 +10632,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 1150000,
+      "power": 56,
+      "rating": 0,
+      "review_count": 1162,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "10 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_eeve001",
@@ -10493,12 +10656,10 @@
       "company": "EeVe EV",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 140000,
       "range": 120,
       "top_speed": 45,
-      "battery_capacity": "2.2 kWh",
+      "battery_capacity": 2.2,
       "charging_time": "3-4 hr",
-      "motor_power": "0.25 kW",
       "weight": null,
       "description": "The EeVe Soul is a premium electric scooter with 120 km range. Features Bluetooth connectivity and geofencing.",
       "images": [
@@ -10525,7 +10686,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 140000,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 2136,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_volvo001",
@@ -10535,12 +10710,10 @@
       "company": "Volvo Electric",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 3999000,
       "range": 480,
       "top_speed": 180,
-      "battery_capacity": "69 kWh",
+      "battery_capacity": 69,
       "charging_time": "28 hr",
-      "motor_power": "185 kW",
       "weight": 1835,
       "description": "The Volvo EX30 is a compact premium electric SUV with 480 km range. Zero to 100 km/h in 3.6 seconds.",
       "images": [
@@ -10566,7 +10739,21 @@
           "url": "https://www.youtube.com/embed/y44dCaF9GcQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 3999000,
+      "power": 185,
+      "rating": 0,
+      "review_count": 1628,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "28 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_volvo002",
@@ -10576,12 +10763,10 @@
       "company": "Volvo Electric",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 6295000,
       "range": 530,
       "top_speed": 180,
-      "battery_capacity": "78 kWh",
+      "battery_capacity": 78,
       "charging_time": "28 hr",
-      "motor_power": "300 kW",
       "weight": 2070,
       "description": "The Volvo C40 Recharge is a coupe-style premium electric SUV with 530 km range and all-wheel drive.",
       "images": [
@@ -10614,7 +10799,21 @@
           "url": "https://www.youtube.com/embed/y44dCaF9GcQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 6295000,
+      "power": 300,
+      "rating": 0,
+      "review_count": 1114,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "28 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_kinetic001",
@@ -10624,12 +10823,10 @@
       "company": "Kinetic",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 117499,
       "range": 150,
       "top_speed": 90,
-      "battery_capacity": "2.6 kWh",
+      "battery_capacity": 2.6,
       "charging_time": "3 hr",
-      "motor_power": "4.8 kW",
       "weight": 90,
       "description": "The Kinetic DX+ is a feature-rich electric scooter with 2.6 kWh LFP battery. 150 km range and 90 km/h top speed.",
       "images": [
@@ -10661,7 +10858,21 @@
           "url": "https://www.youtube.com/embed/4iFZ1V3GxMY?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 117499,
+      "power": 4.8,
+      "rating": 0,
+      "review_count": 234,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_kinetic002",
@@ -10671,12 +10882,10 @@
       "company": "Kinetic",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 111499,
       "range": 102,
       "top_speed": 80,
-      "battery_capacity": "2.6 kWh",
+      "battery_capacity": 2.6,
       "charging_time": "3 hr",
-      "motor_power": "4.8 kW",
       "weight": 90,
       "description": "The Kinetic DX is an affordable electric scooter with LFP battery. 102 km range and regenerative braking.",
       "images": [
@@ -10702,7 +10911,21 @@
           "url": "https://www.youtube.com/embed/4iFZ1V3GxMY?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 111499,
+      "power": 4.8,
+      "rating": 0,
+      "review_count": 2836,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_royalenfield001",
@@ -10712,12 +10935,10 @@
       "company": "Royal Enfield",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 279000,
       "range": 154,
       "top_speed": 115,
-      "battery_capacity": "3.91 kWh",
+      "battery_capacity": 3.91,
       "charging_time": "65 min (20-80%)",
-      "motor_power": "15.4 kW",
       "weight": 124,
       "description": "The Royal Enfield Flying Flea C6 is the lightest Royal Enfield ever at 124 kg. 154 km range, 0-60 in 3.7s.",
       "images": [
@@ -10746,7 +10967,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 279000,
+      "power": 15.4,
+      "rating": 0,
+      "review_count": 1089,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "65 min (20-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bmw001",
@@ -10756,12 +10991,10 @@
       "company": "BMW",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 5140000,
       "range": 531,
       "top_speed": 175,
-      "battery_capacity": "66.4 kWh",
+      "battery_capacity": 66.4,
       "charging_time": "28 min (10-80%)",
-      "motor_power": "150 kW",
       "weight": 1940,
       "description": "The BMW iX1 is a premium electric SUV with 531 km range. Features BMW iDrive with 10.25-inch display.",
       "images": [
@@ -10790,7 +11023,21 @@
           "url": "https://www.youtube.com/embed/5qap5aO4i9A?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 5140000,
+      "power": 150,
+      "rating": 0,
+      "review_count": 1204,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "28 min (10-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bmw002",
@@ -10800,12 +11047,10 @@
       "company": "BMW",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 7250000,
       "range": 590,
       "top_speed": 190,
-      "battery_capacity": "83.9 kWh",
+      "battery_capacity": 83.9,
       "charging_time": "31 min (10-80%)",
-      "motor_power": "250 kW",
       "weight": 2050,
       "description": "The BMW i4 is a grand coupe with 590 km range and rear-wheel drive. 0-100 km/h in 5.7 seconds.",
       "images": [
@@ -10834,7 +11079,21 @@
           "url": "https://www.youtube.com/embed/5qap5aO4i9A?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 7250000,
+      "power": 250,
+      "rating": 0,
+      "review_count": 2053,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "31 min (10-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bmw003",
@@ -10844,12 +11103,10 @@
       "company": "BMW",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 12000000,
       "range": 516,
       "top_speed": 230,
-      "battery_capacity": "83.9 kWh",
+      "battery_capacity": 83.9,
       "charging_time": "30 min (10-80%)",
-      "motor_power": "442 kW",
       "weight": 2205,
       "description": "The BMW i5 M60 xDrive is a performance luxury sedan with 516 km range. 0-100 in 3.8s with M xDrive.",
       "images": [
@@ -10875,7 +11132,21 @@
           "url": "https://www.youtube.com/embed/5qap5aO4i9A?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 12000000,
+      "power": 442,
+      "rating": 0,
+      "review_count": 3062,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "30 min (10-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bmw004",
@@ -10885,12 +11156,10 @@
       "company": "BMW",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 14000000,
       "range": 635,
       "top_speed": 200,
-      "battery_capacity": "111.5 kWh",
+      "battery_capacity": 111.5,
       "charging_time": "35 min (10-80%)",
-      "motor_power": "385 kW",
       "weight": 2510,
       "description": "The BMW iX is a flagship electric SUV with 635 km range. Features xDrive all-wheel drive and premium luxury.",
       "images": [
@@ -10919,7 +11188,21 @@
           "url": "https://www.youtube.com/embed/5qap5aO4i9A?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 14000000,
+      "power": 385,
+      "rating": 0,
+      "review_count": 2473,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "35 min (10-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bmw005",
@@ -10929,12 +11212,10 @@
       "company": "BMW",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 18200000,
       "range": 625,
       "top_speed": 240,
-      "battery_capacity": "101.7 kWh",
+      "battery_capacity": 101.7,
       "charging_time": "34 min (10-80%)",
-      "motor_power": "400 kW",
       "weight": 2640,
       "description": "The BMW i7 is the ultimate luxury electric sedan with 625 km range. Features Theatre Screen and Executive Lounge.",
       "images": [
@@ -10963,7 +11244,21 @@
           "url": "https://www.youtube.com/embed/5qap5aO4i9A?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 18200000,
+      "power": 400,
+      "rating": 0,
+      "review_count": 2746,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "34 min (10-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_joy001",
@@ -10973,7 +11268,6 @@
       "company": "Joy e-bike",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 149000,
       "range": 105,
       "top_speed": 60,
       "battery_capacity": null,
@@ -11005,7 +11299,20 @@
           "url": "https://www.youtube.com/embed/kJ0sPKq2W3Y?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 149000,
+      "rating": 0,
+      "review_count": 2599,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_joy002",
@@ -11015,7 +11322,6 @@
       "company": "Joy e-bike",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 106991,
       "range": 60,
       "top_speed": 25,
       "battery_capacity": null,
@@ -11045,7 +11351,20 @@
           "url": "https://www.youtube.com/embed/kJ0sPKq2W3Y?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 106991,
+      "rating": 0,
+      "review_count": 980,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_joy003",
@@ -11055,7 +11374,6 @@
       "company": "Joy e-bike",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 110000,
       "range": 100,
       "top_speed": 75,
       "battery_capacity": null,
@@ -11086,7 +11404,20 @@
           "url": "https://www.youtube.com/embed/kJ0sPKq2W3Y?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 110000,
+      "rating": 0,
+      "review_count": 2509,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_joy004",
@@ -11096,7 +11427,6 @@
       "company": "Joy e-bike",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 77400,
       "range": 80,
       "top_speed": 55,
       "battery_capacity": null,
@@ -11124,7 +11454,20 @@
           "url": "https://www.youtube.com/embed/kJ0sPKq2W3Y?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 77400,
+      "rating": 0,
+      "review_count": 1571,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_battre001",
@@ -11134,10 +11477,9 @@
       "company": "BattRE",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 89600,
       "range": 132,
       "top_speed": 65,
-      "battery_capacity": "3.1 kWh",
+      "battery_capacity": 3.1,
       "charging_time": "4-5 hr",
       "motor_power": null,
       "weight": null,
@@ -11162,7 +11504,20 @@
           "url": "https://www.youtube.com/embed/mC6pP5JnK3w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 89600,
+      "rating": 0,
+      "review_count": 1919,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_battre002",
@@ -11172,7 +11527,6 @@
       "company": "BattRE",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 79999,
       "range": 80,
       "top_speed": 45,
       "battery_capacity": null,
@@ -11201,7 +11555,20 @@
           "url": "https://www.youtube.com/embed/mC6pP5JnK3w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 79999,
+      "rating": 0,
+      "review_count": 3089,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_battre003",
@@ -11211,7 +11578,6 @@
       "company": "BattRE",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 65900,
       "range": 60,
       "top_speed": 25,
       "battery_capacity": null,
@@ -11237,7 +11603,20 @@
           "url": "https://www.youtube.com/embed/mC6pP5JnK3w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 65900,
+      "rating": 0,
+      "review_count": 2654,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_battre004",
@@ -11247,7 +11626,6 @@
       "company": "BattRE",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 69900,
       "range": 60,
       "top_speed": 25,
       "battery_capacity": null,
@@ -11274,7 +11652,20 @@
           "url": "https://www.youtube.com/embed/mC6pP5JnK3w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 69900,
+      "rating": 0,
+      "review_count": 473,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_battre005",
@@ -11284,10 +11675,9 @@
       "company": "BattRE",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 109000,
       "range": 135,
       "top_speed": 85,
-      "battery_capacity": "3 kWh",
+      "battery_capacity": 3,
       "charging_time": "4 hr",
       "motor_power": null,
       "weight": null,
@@ -11313,7 +11703,20 @@
           "url": "https://www.youtube.com/embed/mC6pP5JnK3w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 109000,
+      "rating": 0,
+      "review_count": 1879,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bounce001",
@@ -11323,10 +11726,9 @@
       "company": "Bounce Infinity",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 79999,
       "range": 85,
       "top_speed": 65,
-      "battery_capacity": "1.9 kWh",
+      "battery_capacity": 1.9,
       "charging_time": "3-4 hr",
       "motor_power": null,
       "weight": null,
@@ -11355,7 +11757,20 @@
           "url": "https://www.youtube.com/embed/3tmd-GQ5dJI?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 79999,
+      "rating": 0,
+      "review_count": 1932,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_bounce002",
@@ -11365,10 +11780,9 @@
       "company": "Bounce Infinity",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 126000,
       "range": 85,
       "top_speed": 65,
-      "battery_capacity": "1.9 kWh",
+      "battery_capacity": 1.9,
       "charging_time": "3-4 hr",
       "motor_power": null,
       "weight": null,
@@ -11393,7 +11807,20 @@
           "url": "https://www.youtube.com/embed/3tmd-GQ5dJI?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 126000,
+      "rating": 0,
+      "review_count": 115,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "3-4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_okinawa001",
@@ -11403,12 +11830,10 @@
       "company": "Okinawa",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 115311,
       "range": 149,
       "top_speed": 45,
-      "battery_capacity": "3.12 kWh",
+      "battery_capacity": 3.12,
       "charging_time": "5-6 hr",
-      "motor_power": "1.6 kW",
       "weight": null,
       "description": "The Okinawa Ridge 100 is a premium scooter with 3.12 kWh detachable battery and 149 km range.",
       "images": [
@@ -11433,7 +11858,21 @@
           "url": "https://www.youtube.com/embed/GJ3pKqKQZ4w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 115311,
+      "power": 1.6,
+      "rating": 0,
+      "review_count": 2903,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5-6 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_okinawa002",
@@ -11443,12 +11882,10 @@
       "company": "Okinawa",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 90606,
       "range": 84,
       "top_speed": 45,
-      "battery_capacity": "1.7 kWh",
+      "battery_capacity": 1.7,
       "charging_time": "2-3 hr",
-      "motor_power": "1.6 kW",
       "weight": 96,
       "description": "The Okinawa Ridge+ GPS is a compact scooter with GPS tracking and 84 km range.",
       "images": [
@@ -11473,7 +11910,21 @@
           "url": "https://www.youtube.com/embed/GJ3pKqKQZ4w?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 90606,
+      "power": 1.6,
+      "rating": 0,
+      "review_count": 2626,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "2-3 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero001",
@@ -11483,12 +11934,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 85190,
       "range": 82,
       "top_speed": 45,
-      "battery_capacity": "1.2 kWh",
+      "battery_capacity": 1.2,
       "charging_time": "5 hr",
-      "motor_power": "1.2 kW",
       "weight": 76,
       "description": "The Hero Electric Optima CX Dual Battery is a reliable electric scooter for daily commuting.",
       "images": [
@@ -11514,7 +11963,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 85190,
+      "power": 1.2,
+      "rating": 0,
+      "review_count": 2075,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero002",
@@ -11524,12 +11987,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 86540,
       "range": 200,
       "top_speed": 42,
-      "battery_capacity": "3.97 kWh",
+      "battery_capacity": 3.97,
       "charging_time": "4-5 hr",
-      "motor_power": "1.2 kW",
       "weight": null,
       "description": "The Hero Electric NYX is a long-range scooter with 200 km range and dual battery setup.",
       "images": [
@@ -11555,7 +12016,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 86540,
+      "power": 1.2,
+      "rating": 0,
+      "review_count": 2326,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero003",
@@ -11565,12 +12040,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 129890,
       "range": 135,
       "top_speed": 55,
-      "battery_capacity": "3 kWh",
+      "battery_capacity": 3,
       "charging_time": "6.5 hr",
-      "motor_power": "1.9 kW",
       "weight": 102,
       "description": "The Hero Electric Optima 5.0 is a premium scooter with 135 km range and 55 km/h speed.",
       "images": [
@@ -11595,7 +12068,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 129890,
+      "power": 1.9,
+      "rating": 0,
+      "review_count": 1360,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "6.5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero004",
@@ -11605,12 +12092,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 74240,
       "range": 108,
       "top_speed": 45,
-      "battery_capacity": "1.87 kWh",
+      "battery_capacity": 1.87,
       "charging_time": "5 hr",
-      "motor_power": "1.8 kW",
       "weight": 87,
       "description": "The Hero Electric Photon HX is a popular scooter with 108 km range and comfortable ride.",
       "images": [
@@ -11635,7 +12120,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 74240,
+      "power": 1.8,
+      "rating": 0,
+      "review_count": 1466,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero005",
@@ -11645,12 +12144,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 86391,
       "range": 90,
       "top_speed": 45,
-      "battery_capacity": "1.87 kWh",
+      "battery_capacity": 1.87,
       "charging_time": "5 hr",
-      "motor_power": "1.8 kW",
       "weight": null,
       "description": "The Hero Electric Photon LP is a variant with larger battery and 90 km range.",
       "images": [
@@ -11675,7 +12172,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 86391,
+      "power": 1.8,
+      "rating": 0,
+      "review_count": 1136,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero006",
@@ -11685,12 +12196,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 106590,
       "range": 89,
       "top_speed": 48,
-      "battery_capacity": "2 kWh",
+      "battery_capacity": 2,
       "charging_time": "4.5 hr",
-      "motor_power": "1.9 kW",
       "weight": 93,
       "description": "The Hero Electric Optima CX 2.0 is an upgraded scooter with 89 km range and 48 km/h speed.",
       "images": [
@@ -11715,7 +12224,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 106590,
+      "power": 1.9,
+      "rating": 0,
+      "review_count": 1041,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4.5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero007",
@@ -11725,12 +12248,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 59640,
       "range": 85,
       "top_speed": 25,
-      "battery_capacity": "1.536 kWh",
+      "battery_capacity": 1.536,
       "charging_time": "4-5 hr",
-      "motor_power": "0.25 kW",
       "weight": null,
       "description": "The Hero Electric Flash LX is an affordable low-speed scooter with 85 km range.",
       "images": [
@@ -11753,7 +12274,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 59640,
+      "power": 0.25,
+      "rating": 0,
+      "review_count": 1335,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero008",
@@ -11763,12 +12298,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 72000,
       "range": 85,
       "top_speed": 25,
-      "battery_capacity": "1.536 kWh",
+      "battery_capacity": 1.536,
       "charging_time": "4 hr",
-      "motor_power": "0.55 kW",
       "weight": 60,
       "description": "The Hero Electric Eddy is a compact low-speed scooter with 60 kg weight.",
       "images": [
@@ -11792,7 +12325,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 72000,
+      "power": 0.55,
+      "rating": 0,
+      "review_count": 1574,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero009",
@@ -11802,12 +12349,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 66640,
       "range": 85,
       "top_speed": 25,
-      "battery_capacity": "1.536 kWh",
+      "battery_capacity": 1.536,
       "charging_time": "4-5 hr",
-      "motor_power": "0.55 kW",
       "weight": 69,
       "description": "The Hero Electric Atria LX is a lightweight low-speed scooter with 69 kg weight.",
       "images": [
@@ -11831,7 +12376,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 66640,
+      "power": 0.55,
+      "rating": 0,
+      "review_count": 2385,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero010",
@@ -11841,12 +12400,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 67200,
       "range": 82,
       "top_speed": 45,
-      "battery_capacity": "1.2 kWh",
+      "battery_capacity": 1.2,
       "charging_time": "5 hr",
-      "motor_power": "1.2 kW",
       "weight": 76,
       "description": "The Hero Electric Optima CX is an affordable electric scooter with 82 km range.",
       "images": [
@@ -11870,7 +12427,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 67200,
+      "power": 1.2,
+      "rating": 0,
+      "review_count": 178,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero011",
@@ -11880,12 +12451,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 65640,
       "range": 82,
       "top_speed": 45,
-      "battery_capacity": "1.536 kWh",
+      "battery_capacity": 1.536,
       "charging_time": "4-5 hr",
-      "motor_power": "1.2 kW",
       "weight": 72.5,
       "description": "The Hero Electric Optima HX Single is a single battery variant with 82 km range.",
       "images": [
@@ -11911,7 +12480,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 65640,
+      "power": 1.2,
+      "rating": 0,
+      "review_count": 399,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_hero012",
@@ -11921,12 +12504,10 @@
       "company": "Hero Electric",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 73990,
       "range": 140,
       "top_speed": 45,
-      "battery_capacity": "1.536 kWh",
+      "battery_capacity": 1.536,
       "charging_time": "5 hr",
-      "motor_power": "1.2 kW",
       "weight": null,
       "description": "The Hero Electric AE-75 is a high-range scooter with 140 km claimed range.",
       "images": [],
@@ -11948,7 +12529,21 @@
           "url": "https://www.youtube.com/embed/3x8VwLwFO6k?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 73990,
+      "power": 1.2,
+      "rating": 0,
+      "review_count": 521,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_tork001",
@@ -11958,12 +12553,10 @@
       "company": "Tork Motors",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 147499,
       "range": 180,
       "top_speed": 105,
-      "battery_capacity": "4 kWh",
+      "battery_capacity": 4,
       "charging_time": "4-5 hr",
-      "motor_power": "9 kW",
       "weight": 140,
       "description": "The Tork Kratos R is a performance electric bike with 180 km range and 105 km/h top speed. 0-40 in 3.5s.",
       "images": [
@@ -11992,7 +12585,21 @@
           "url": "https://www.youtube.com/embed/qW2R7aG8f3o?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 147499,
+      "power": 9,
+      "rating": 0,
+      "review_count": 1949,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_tork002",
@@ -12002,12 +12609,10 @@
       "company": "Tork Motors",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 120000,
       "range": 120,
       "top_speed": 100,
-      "battery_capacity": "4 kWh",
+      "battery_capacity": 4,
       "charging_time": "4-5 hr",
-      "motor_power": "7.5 kW",
       "weight": 140,
       "description": "The Tork Kratos is an affordable performance electric bike with 120 km range.",
       "images": [
@@ -12034,7 +12639,21 @@
           "url": "https://www.youtube.com/embed/qW2R7aG8f3o?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 120000,
+      "power": 7.5,
+      "rating": 0,
+      "review_count": 938,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "4-5 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_yamaha001",
@@ -12044,12 +12663,10 @@
       "company": "Yamaha EV",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 160000,
       "range": 169,
       "top_speed": 79,
-      "battery_capacity": "4 kWh",
+      "battery_capacity": 4,
       "charging_time": "8 hr",
-      "motor_power": "6.7 kW",
       "weight": 132,
       "description": "The Yamaha EC-06 is a premium electric scooter with IPMSM motor and 169 km range. Features Yamaha Connect R app.",
       "images": [
@@ -12075,7 +12692,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 160000,
+      "power": 6.7,
+      "rating": 0,
+      "review_count": 1716,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "8 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_yamaha002",
@@ -12085,12 +12716,10 @@
       "company": "Yamaha EV",
       "vehicle_type": 2,
       "vehicle_type_name": "Scooter",
-      "price": 290000,
       "range": 117,
       "top_speed": 96,
-      "battery_capacity": "3 kWh",
+      "battery_capacity": 3,
       "charging_time": "6.3 hr",
-      "motor_power": "9.4 kW",
       "weight": 139,
       "description": "The Yamaha Aerox-E is a premium maxi-scooter with dual swappable batteries and 96 km/h top speed.",
       "images": [
@@ -12117,7 +12746,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 290000,
+      "power": 9.4,
+      "rating": 0,
+      "review_count": 2890,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "6.3 hr",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_ducati001",
@@ -12127,10 +12770,9 @@
       "company": "Ducati",
       "vehicle_type": 1,
       "vehicle_type_name": "Bike",
-      "price": 2500000,
       "range": 150,
       "top_speed": 275,
-      "battery_capacity": "18 kWh",
+      "battery_capacity": 18,
       "charging_time": "60 min",
       "motor_power": null,
       "weight": 225,
@@ -12157,7 +12799,20 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 2500000,
+      "rating": 0,
+      "review_count": 1271,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 2,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "60 min",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_byd001",
@@ -12167,12 +12822,10 @@
       "company": "BYD India",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 4100000,
       "range": 510,
       "top_speed": 180,
-      "battery_capacity": "61.44 kWh",
+      "battery_capacity": 61.44,
       "charging_time": "30 min (30-80%)",
-      "motor_power": "160 kW",
       "weight": 2150,
       "description": "The BYD Seal is a sleek electric sedan with 510 km range and Blade Battery technology. 0-100 km/h in 5.9s.",
       "images": [
@@ -12201,7 +12854,21 @@
           "url": "https://www.youtube.com/embed/4gZvD4PpWYQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 4100000,
+      "power": 160,
+      "rating": 0,
+      "review_count": 728,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "30 min (30-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_byd002",
@@ -12211,12 +12878,10 @@
       "company": "BYD India",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 2830000,
       "range": 485,
       "top_speed": 180,
-      "battery_capacity": "71.8 kWh",
+      "battery_capacity": 71.8,
       "charging_time": "30 min (30-80%)",
-      "motor_power": "160 kW",
       "weight": 2320,
       "description": "The BYD eMax 7 is a 7-seater electric MPV with 485 km range. Spacious cabin with premium features.",
       "images": [
@@ -12245,7 +12910,21 @@
           "url": "https://www.youtube.com/embed/4gZvD4PpWYQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 2830000,
+      "power": 160,
+      "rating": 0,
+      "review_count": 368,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "30 min (30-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_byd003",
@@ -12255,12 +12934,10 @@
       "company": "BYD India",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 3449000,
       "range": 321,
       "top_speed": 160,
-      "battery_capacity": "60.48 kWh",
+      "battery_capacity": 60.48,
       "charging_time": "29 min (30-80%)",
-      "motor_power": "150 kW",
       "weight": 1750,
       "description": "The BYD ATTO-3 is a compact electric SUV with 321 km range. Features Blade Battery and rotating display.",
       "images": [
@@ -12286,7 +12963,21 @@
           "url": "https://www.youtube.com/embed/4gZvD4PpWYQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 3449000,
+      "power": 150,
+      "rating": 0,
+      "review_count": 236,
+      "discontinued": false,
+      "top_brand": false,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "29 min (30-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_byd004",
@@ -12296,12 +12987,10 @@
       "company": "BYD India",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 3078000,
       "range": 520,
       "top_speed": 130,
-      "battery_capacity": "71.7 kWh",
+      "battery_capacity": 71.7,
       "charging_time": "30 min (30-80%)",
-      "motor_power": "70 kW",
       "weight": 1930,
       "description": "The BYD e6 is an MPV with 520 km range. Designed for fleet and family use with spacious interior.",
       "images": [
@@ -12326,7 +13015,21 @@
           "url": "https://www.youtube.com/embed/4gZvD4PpWYQ?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 3078000,
+      "power": 70,
+      "rating": 0,
+      "review_count": 1686,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "30 min (30-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_pravaig001",
@@ -12336,12 +13039,10 @@
       "company": "Pravaig",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 4010000,
       "range": 510,
       "top_speed": 210,
-      "battery_capacity": "70 kWh",
+      "battery_capacity": 70,
       "charging_time": "30 min (30-80%)",
-      "motor_power": "250 kW",
       "weight": 2300,
       "description": "The Pravaig DEFY is an Indian luxury electric SUV with 510 km range and 210 km/h top speed. Features 30+ ADAS features.",
       "images": [
@@ -12375,7 +13076,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 4010000,
+      "power": 250,
+      "rating": 0,
+      "review_count": 3006,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "30 min (30-80%)",
+      "motor_type": "BLDC"
     },
     {
       "_id": "v_maruti001",
@@ -12385,12 +13100,10 @@
       "company": "Maruti Suzuki",
       "vehicle_type": 10,
       "vehicle_type_name": "Car",
-      "price": 2500000,
       "range": 543,
       "top_speed": 150,
-      "battery_capacity": "61 kWh",
+      "battery_capacity": 61,
       "charging_time": "30 min (30-80%)",
-      "motor_power": "144 kW",
       "weight": 1800,
       "description": "The Maruti Suzuki e-Vitara is the brand first electric SUV with 543 km range. Based on the Heartect-e platform.",
       "images": [
@@ -12416,7 +13129,21 @@
           "url": "https://www.youtube.com/embed/5L3C3eHk5R0?rel=0",
           "source": "BikeWale"
         }
-      ]
+      ],
+      "total_price": 2500000,
+      "power": 144,
+      "rating": 0,
+      "review_count": 2375,
+      "discontinued": false,
+      "top_brand": true,
+      "specifications": {},
+      "torque": 0,
+      "seating_capacity": 5,
+      "boot_space": 0,
+      "waiting_period": "2-4 Weeks",
+      "launch_date": "2024-01-01",
+      "fast_charging": "30 min (30-80%)",
+      "motor_type": "BLDC"
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "faqs": [
     {
-      "_id": "f01",
-      "question": "Are electric vehicles cheaper to own than petrol vehicles?",
-      "answer": "Yes, electric vehicles are significantly cheaper to own over their lifetime. While the initial purchase price may be higher, EVs have much lower running costs - electricity costs about 1-2 per km compared to 7-10 per km for petrol. Maintenance costs are also 40-60% lower as EVs have fewer moving parts and don't require oil changes, filter replacements, or clutch maintenance. Most EV owners recover the price premium within 3-4 years through fuel and maintenance savings."
+      "_id": "faq1",
+      "question": "What is the average price of electric vehicles in India?",
+      "answer": "Electric vehicles in India range from ₹50,000 for entry-level electric scooters to over ₹50 lakh for premium electric cars. The most popular segment is between ₹1-3 lakh for electric scooters and ₹10-20 lakh for electric cars."
     },
     {
-      "_id": "f02",
-      "question": "What is the real-world range of an electric vehicle?",
-      "answer": "The real-world range of an electric vehicle depends on several factors including driving style, speed, terrain, weather, and use of AC/heating. On average, expect 70-85% of the claimed range in city driving and 60-75% on highways. For example, an EV with a claimed range of 300 km will typically deliver 210-255 km in city conditions and 180-225 km on highways. Cold weather can reduce range by 15-30% due to battery chemistry and heating requirements."
+      "_id": "faq2",
+      "question": "What is the typical range of an electric vehicle?",
+      "answer": "The range of electric vehicles varies widely. Electric scooters typically offer 80-200 km per charge, while electric cars can range from 150-500 km. Premium EVs like the Hyundai Ioniq 5 offer over 600 km range."
     },
     {
-      "_id": "f03",
-      "question": "Can I charge an electric vehicle at home?",
-      "answer": "Yes, most electric vehicles can be charged at home using a standard 15A plug point. Home charging is the most convenient and cost-effective way to charge your EV. You can simply plug in overnight and wake up to a fully charged vehicle. The charging time depends on your battery size and charger type - a standard 3.3kW charger takes 8-12 hours for a full charge, while a 7.4kW home charger can do it in 4-6 hours."
+      "_id": "faq3",
+      "question": "How long does it take to charge an electric vehicle?",
+      "answer": "Charging time depends on the battery capacity and charger type. A standard home charger (3.3 kW) takes 4-8 hours for a full charge. Fast chargers (DC) can charge from 0-80% in 30-60 minutes for most EVs."
     },
     {
-      "_id": "f04",
-      "question": "Do I need a fast charger at home?",
-      "answer": "No, a fast charger is not necessary for home use. Most EV owners charge overnight using a standard home charger (3.3kW or 7.4kW), which is sufficient for daily commuting needs. DC fast chargers are primarily designed for public charging stations and highway rest stops where quick top-ups are needed. Installing a home fast charger (22kW+) requires a 3-phase power connection and is not cost-effective for most users."
+      "_id": "faq4",
+      "question": "What are the best electric scooters in India?",
+      "answer": "The best electric scooters in India include Ola S1 Pro, Ather 450X, TVS iQube, Bajaj Chetak, and VIDA V1. These offer a good balance of range, performance, and features."
     },
     {
-      "_id": "f05",
-      "question": "Are electric vehicles safe to drive in rain and waterlogged conditions?",
-      "answer": "Yes, modern electric vehicles are designed to be completely safe in rain and waterlogged conditions. All EV components are sealed and waterproofed to IP67 or higher standards. The battery pack is specially sealed to prevent water ingress. In fact, EVs are safer than petrol cars in waterlogged areas as there's no risk of engine stalling or fuel contamination. However, it's advisable to avoid deep water wading beyond the manufacturer's specified limit (usually 300-500mm)."
+      "_id": "faq5",
+      "question": "What are the best electric cars in India?",
+      "answer": "Top electric cars in India include Tata Nexon EV, Tata Tiago EV, MG Comet EV, Mahindra XUV400, and Hyundai Ioniq 5. These range from affordable city cars to premium SUVs."
     },
     {
-      "_id": "f06",
-      "question": "Are electric vehicle batteries safe?",
-      "answer": "Yes, electric vehicle batteries are extremely safe when manufactured by reputable companies. Modern EV batteries come with multiple safety features including thermal management systems, battery management systems (BMS), crash protection, and fire-retardant materials. The probability of EV battery fires is significantly lower than petrol vehicle fires. Leading manufacturers offer 8-year or 1,60,000 km battery warranty, demonstrating their confidence in battery safety and longevity."
+      "_id": "faq6",
+      "question": "Is it worth buying an electric vehicle in India?",
+      "answer": "Yes, electric vehicles offer significant savings on fuel and maintenance costs. With government subsidies, decreasing battery prices, and improving charging infrastructure, EVs are becoming increasingly cost-effective in India."
     },
     {
-      "_id": "f07",
-      "question": "What should I check before buying an electric vehicle for the first time?",
-      "answer": "Before buying your first electric vehicle, consider these key factors: 1) Daily commute distance - ensure the EV range covers your needs with buffer. 2) Charging infrastructure - check availability of chargers at home, work, and en route. 3) Total cost of ownership - calculate fuel savings vs higher purchase price. 4) Battery warranty - look for at least 8-year warranty. 5) Service network - ensure authorized service centers are accessible. 6) Resale value - research brand reputation and depreciation rates. 7) Features - check for fast charging capability, connected features, and safety equipment."
+      "_id": "faq7",
+      "question": "What is the battery warranty for electric vehicles?",
+      "answer": "Most EV manufacturers offer 5-8 year battery warranties. Some brands like Ather and Ola offer up to 8 years or 1,50,000 km warranty on their batteries."
     }
   ]
 }
