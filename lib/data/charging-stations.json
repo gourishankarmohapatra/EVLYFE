@@ -1,0 +1,33 @@
+{
+  "charging_stations": [
+    {"_id": "cs01", "name": "Tata Power Charging Station", "state": "Maharashtra", "city": "Mumbai", "address": "Worli Bandra Sea Link, Mumbai", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs02", "name": "Ather Grid - Bandra", "state": "Maharashtra", "city": "Mumbai", "address": "Bandra Kurla Complex, Mumbai", "type": "AC", "power": "3.3 kW", "brand": "Ather", "status": "Available", "timings": "24/7"},
+    {"_id": "cs03", "name": "Reliance Jio-bp Pulse", "state": "Maharashtra", "city": "Mumbai", "address": "Jio World Centre, BKC, Mumbai", "type": "DC Fast", "power": "120 kW", "brand": "Jio-bp", "status": "Available", "timings": "24/7"},
+    {"_id": "cs04", "name": "Tata Power - Pune Station", "state": "Maharashtra", "city": "Pune", "address": "M.G. Road, Pune", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "6 AM - 11 PM"},
+    {"_id": "cs05", "name": "Ather Grid - Kothrud", "state": "Maharashtra", "city": "Pune", "address": "Kothrud, Pune", "type": "AC", "power": "3.3 kW", "brand": "Ather", "status": "Available", "timings": "24/7"},
+    {"_id": "cs06", "name": "Statiq Charging Hub", "state": "Delhi", "city": "New Delhi", "address": "Connaught Place, New Delhi", "type": "DC Fast", "power": "60 kW", "brand": "Statiq", "status": "Available", "timings": "24/7"},
+    {"_id": "cs07", "name": "Tata Power - CP Station", "state": "Delhi", "city": "New Delhi", "address": "Janpath, New Delhi", "type": "DC Fast", "power": "120 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs08", "name": "Exicomm DC Charger", "state": "Delhi", "city": "New Delhi", "address": "Aerocity, New Delhi", "type": "DC Fast", "power": "60 kW", "brand": "Exicomm", "status": "Available", "timings": "24/7"},
+    {"_id": "cs09", "name": "Ather Grid - Koramangala", "state": "Karnataka", "city": "Bangalore", "address": "Koramangala, Bangalore", "type": "AC", "power": "3.3 kW", "brand": "Ather", "status": "Available", "timings": "24/7"},
+    {"_id": "cs10", "name": "Tata Power - Bangalore Hub", "state": "Karnataka", "city": "Bangalore", "address": "Whitefield, Bangalore", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs11", "name": "Reliance Jio-bp - Indiranagar", "state": "Karnataka", "city": "Bangalore", "address": "Indiranagar, Bangalore", "type": "DC Fast", "power": "120 kW", "brand": "Jio-bp", "status": "Available", "timings": "24/7"},
+    {"_id": "cs12", "name": "Tata Power - Chennai Station", "state": "Tamil Nadu", "city": "Chennai", "address": "Adyar, Chennai", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs13", "name": "Ather Grid - T Nagar", "state": "Tamil Nadu", "city": "Chennai", "address": "T. Nagar, Chennai", "type": "AC", "power": "3.3 kW", "brand": "Ather", "status": "Available", "timings": "24/7"},
+    {"_id": "cs14", "name": "Tata Power - Hyderabad", "state": "Telangana", "city": "Hyderabad", "address": "Madhapur, Hyderabad", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs15", "name": "Statiq - Banjara Hills", "state": "Telangana", "city": "Hyderabad", "address": "Banjara Hills, Hyderabad", "type": "DC Fast", "power": "60 kW", "brand": "Statiq", "status": "Available", "timings": "24/7"},
+    {"_id": "cs16", "name": "Tata Power - Kolkata", "state": "West Bengal", "city": "Kolkata", "address": "Park Street, Kolkata", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs17", "name": "Tata Power - Ahmedabad", "state": "Gujarat", "city": "Ahmedabad", "address": "SG Highway, Ahmedabad", "type": "DC Fast", "power": "60 kW", "brand": "Tata Power", "status": "Available", "timings": "24/7"},
+    {"_id": "cs18", "name": "Jio-bp - Jaipur", "state": "Rajasthan", "city": "Jaipur", "address": "MI Road, Jaipur", "type": "DC Fast", "power": "60 kW", "brand": "Jio-bp", "status": "Available", "timings": "24/7"}
+  ],
+  "states": ["Maharashtra", "Delhi", "Karnataka", "Tamil Nadu", "Telangana", "West Bengal", "Gujarat", "Rajasthan"],
+  "cities_by_state": {
+    "Maharashtra": ["Mumbai", "Pune"],
+    "Delhi": ["New Delhi"],
+    "Karnataka": ["Bangalore"],
+    "Tamil Nadu": ["Chennai"],
+    "Telangana": ["Hyderabad"],
+    "West Bengal": ["Kolkata"],
+    "Gujarat": ["Ahmedabad"],
+    "Rajasthan": ["Jaipur"]
+  }
+}

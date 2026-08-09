@@ -1,0 +1,633 @@
+/* ========== TABLET (768px - 991px) ========== */
+@media (max-width: 991px) {
+  .vehicle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vehicle-detail .quick-specs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vehicle-detail .specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dealer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer .footer-col {
+    margin-bottom: 20px;
+  }
+
+  .filter-sidebar {
+    display: none;
+  }
+
+  .mobile-filter-toggle {
+    display: block;
+  }
+}
+
+/* ========== MOBILE (< 768px) ========== */
+@media (max-width: 767px) {
+  /* Header */
+  .header-top-bar,
+  .desktop-header {
+    display: none !important;
+  }
+
+  .mobile-header {
+    display: flex;
+  }
+
+  /* Page Hero */
+  .page-hero {
+    padding: 30px 15px 25px;
+  }
+
+  .page-hero h1 {
+    font-size: 22px;
+  }
+
+  .page-hero .breadcrumb {
+    font-size: 12px;
+  }
+
+  /* Vehicle Grid */
+  .vehicle-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .vehicle-card .card-image {
+    height: 120px;
+  }
+
+  .vehicle-card .card-body {
+    padding: 10px;
+  }
+
+  .vehicle-card .card-title {
+    font-size: 13px;
+  }
+
+  .vehicle-card .card-subtitle {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+
+  .vehicle-card .stat-item .stat-value {
+    font-size: 12px;
+  }
+
+  .vehicle-card .stat-item .stat-label {
+    font-size: 9px;
+  }
+
+  .vehicle-card .card-footer {
+    padding: 8px 10px;
+  }
+
+  .btn-view-details {
+    padding: 7px;
+    font-size: 11px;
+  }
+
+  /* Filter Sidebar */
+  .filter-sidebar {
+    display: none;
+  }
+
+  .mobile-filter-toggle {
+    display: block;
+    width: 100%;
+  }
+
+  /* Section Headers */
+  .section-header h2 {
+    font-size: 20px;
+  }
+
+  .section-header p {
+    font-size: 13px;
+  }
+
+  /* Compare */
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-card {
+    flex-wrap: wrap;
+  }
+
+  .compare-select {
+    min-width: 100%;
+  }
+
+  .compare-table th,
+  .compare-table td {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  /* Blog */
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Dealer */
+  .dealer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dealer-filters .filter-row {
+    flex-direction: column;
+  }
+
+  .dealer-filters select {
+    min-width: 100%;
+  }
+
+  /* FAQ */
+  .faq-item .faq-question {
+    padding: 12px 15px;
+    font-size: 13px;
+  }
+
+  .faq-item .faq-answer {
+    font-size: 13px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 30px 0 0;
+  }
+
+  .footer h4 {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
+
+  .footer-contact p {
+    font-size: 12px;
+  }
+
+  .footer-bottom {
+    font-size: 11px;
+  }
+
+  .footer-bottom a {
+    margin: 0 5px;
+  }
+
+  /* Vehicle Detail */
+  .vehicle-detail .detail-gallery img {
+    height: 250px;
+  }
+
+  .vehicle-detail .detail-info h1 {
+    font-size: 22px;
+  }
+
+  .vehicle-detail .detail-info .price {
+    font-size: 20px;
+  }
+
+  .vehicle-detail .quick-specs {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .vehicle-detail .tab-buttons {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .vehicle-detail .tab-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .vehicle-detail .specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 30px 15px;
+    margin: 20px 0;
+    border-radius: var(--radius-md);
+  }
+
+  .cta-section h2 {
+    font-size: 20px;
+  }
+
+  /* Pagination */
+  .pagination {
+    gap: 4px;
+  }
+
+  .pagination button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  /* Blog Article */
+  .blog-article .article-header h1 {
+    font-size: 22px;
+  }
+
+  .blog-article .article-content {
+    font-size: 14px;
+  }
+
+  /* Brands */
+  .brand-item {
+    min-width: 100px;
+    padding: 10px 15px;
+  }
+
+  .brand-item img {
+    height: 30px;
+  }
+
+  .brand-item span {
+    font-size: 11px;
+  }
+
+  /* Intro Section */
+  .intro-section {
+    padding: 20px 15px;
+  }
+
+  /* Back to top */
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+/* ========== SMALL MOBILE (< 480px) ========== */
+@media (max-width: 480px) {
+  .vehicle-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vehicle-card .card-image {
+    height: 180px;
+  }
+
+  .vehicle-card .card-body {
+    padding: 12px;
+  }
+
+  .vehicle-card .card-title {
+    font-size: 15px;
+  }
+
+  .page-hero h1 {
+    font-size: 20px;
+  }
+
+  .compare-vehicle-header img {
+    width: 150px;
+    height: 110px;
+  }
+}
+
+/* ========== DESKTOP (>= 992px) ========== */
+@media (min-width: 992px) {
+  .mobile-header,
+  .mobile-sidebar,
+  .mobile-sidebar-overlay,
+  .mobile-filter-toggle,
+  .filter-drawer {
+    display: none !important;
+  }
+
+  .desktop-header {
+    display: block !important;
+  }
+
+  .filter-sidebar {
+    display: block;
+  }
+}
+
+/* ========== LARGE DESKTOP (>= 1200px) ========== */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* ========== NEW HOMEPAGE RESPONSIVE ========== */
+
+/* Hero Search */
+@media (max-width: 767px) {
+  .hero-search-section {
+    padding: 30px 0 25px;
+  }
+
+  .hero-search-section h1 {
+    font-size: 22px;
+  }
+
+  .hero-search-tabs {
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+
+  .hero-search-tabs .tab-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .hero-search-form {
+    padding: 15px;
+  }
+
+  .hero-search-form .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-stats {
+    gap: 20px;
+  }
+
+  .hero-stats .stat-value {
+    font-size: 20px;
+  }
+
+  .hero-stats .stat-label {
+    font-size: 11px;
+  }
+
+  /* City Selector */
+  .city-selector {
+    display: none !important;
+  }
+
+  /* Spotlight */
+  .spotlight-card {
+    min-width: 180px;
+    max-width: 180px;
+  }
+
+  .spotlight-card .card-image-wrap {
+    height: 110px;
+  }
+
+  .spotlight-card .card-title {
+    font-size: 13px;
+  }
+
+  .spotlight-card .card-price {
+    font-size: 13px;
+  }
+
+  .scroll-arrow {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .scroll-arrow.left { left: 0; }
+  .scroll-arrow.right { right: 0; }
+
+  /* Browse Tiles */
+  .browse-tiles {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .browse-tile {
+    padding: 12px;
+  }
+
+  .browse-tile .tile-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .browse-tile .tile-info .tile-label {
+    font-size: 12px;
+  }
+
+  /* Upcoming */
+  .upcoming-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .upcoming-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .upcoming-card .upcoming-image {
+    width: 100%;
+    height: 120px;
+  }
+
+  /* Latest */
+  .latest-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .latest-card .latest-image-wrap {
+    height: 120px;
+  }
+
+  .latest-card .latest-title {
+    font-size: 13px;
+  }
+
+  .latest-card .latest-price {
+    font-size: 13px;
+  }
+
+  /* Compare VS */
+  .compare-vs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Charging */
+  .charging-filters {
+    flex-direction: column;
+  }
+
+  .charging-filters select {
+    min-width: 100%;
+  }
+
+  .charging-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* News */
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Newsletter */
+  .cta-newsletter .newsletter-form {
+    flex-direction: column;
+  }
+
+  .cta-newsletter h2 {
+    font-size: 20px;
+  }
+
+  /* Section Headers */
+  .section-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .section-header-row h2 {
+    font-size: 18px;
+  }
+
+  /* Spot Tabs */
+  .spotlight-tabs {
+    gap: 0;
+  }
+
+  .spotlight-tabs .spot-tab {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero-search-section h1 {
+    font-size: 18px;
+  }
+
+  .browse-tiles {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .latest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .spotlight-card {
+    min-width: 160px;
+    max-width: 160px;
+  }
+
+  .upcoming-card {
+    padding: 12px;
+  }
+
+  /* Location Popup Mobile */
+  .location-popup {
+    width: 92%;
+    padding: 28px 20px;
+  }
+
+  .location-popup h3 {
+    font-size: 16px;
+  }
+
+  .location-popup p {
+    font-size: 12px;
+  }
+
+  .location-toast {
+    bottom: 20px;
+    font-size: 12px;
+    padding: 10px 18px;
+  }
+
+  /* ========== COMPANIES PAGE MOBILE ========== */
+  .company-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .company-card-banner {
+    height: 70px;
+  }
+
+  .company-card-body {
+    padding: 12px;
+  }
+
+  .company-card-logo {
+    width: 45px;
+    height: 45px;
+    top: -22px;
+  }
+
+  .company-card-title {
+    font-size: 14px;
+  }
+
+  .company-card-desc {
+    display: none;
+  }
+
+  .company-card-footer {
+    flex-direction: column;
+  }
+
+  /* Company Modal Mobile */
+  .company-modal {
+    width: 100%;
+  }
+
+  .company-modal-close {
+    right: 15px;
+    top: 10px;
+  }
+
+  .company-modal-banner {
+    height: 160px;
+  }
+
+  .company-modal-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .company-modal-banner-overlay h2 {
+    font-size: 18px;
+  }
+
+  .company-vehicles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-modal-footer {
+    flex-direction: column;
+  }
+
+  .btn-view-all-vehicles,
+  .btn-more-info {
+    text-align: center;
+  }
+}

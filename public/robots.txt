@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tool-output/
+
+Sitemap: https://www.evlyfe.com/sitemap.xml
