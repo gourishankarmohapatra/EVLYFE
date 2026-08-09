@@ -1,4 +1,4 @@
-const data = require('../lib/data');
+import { vehicles, blogs, companies } from '../lib/data';
 
 export default function sitemap() {
   const baseUrl = 'https://www.evlyfe.com';
@@ -20,21 +20,21 @@ export default function sitemap() {
     { url: `${baseUrl}/terms.html`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
-  const vehiclePages = data.vehicles.map((v) => ({
+  const vehiclePages = vehicles.map((v) => ({
     url: `${baseUrl}/vehicle.html?slug=${v.slug}`,
     lastModified: now,
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
-  const blogPages = data.blogs.map((b) => ({
+  const blogPages = blogs.map((b) => ({
     url: `${baseUrl}/blog-article.html?slug=${b.slug}`,
     lastModified: new Date(b.date),
     changeFrequency: 'monthly',
     priority: 0.6,
   }));
 
-  const companyPages = data.companies.map((c) => ({
+  const companyPages = companies.map((c) => ({
     url: `${baseUrl}/companies.html?slug=${c.slug}`,
     lastModified: now,
     changeFrequency: 'weekly',

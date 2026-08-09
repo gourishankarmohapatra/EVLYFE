@@ -1,9 +1,9 @@
-const { NextResponse } = require('next/server');
+import { NextResponse } from 'next/server';
 
 const cache = new Map();
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
-module.exports = async function POST(request) {
+export async function POST(request) {
   try {
     const { lat, lng } = await request.json();
 
@@ -33,4 +33,4 @@ module.exports = async function POST(request) {
   } catch (err) {
     return NextResponse.json({ city: null });
   }
-};
+}

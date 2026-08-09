@@ -1,4 +1,4 @@
-const { NextResponse } = require('next/server');
+import { NextResponse } from 'next/server';
 
 const submissions = new Map();
 const RATE_LIMIT = 5;
@@ -24,7 +24,7 @@ function escapeHtml(str) {
 
 const VALID_SUBJECTS = ['general', 'business', 'dealer', 'support', 'feedback', 'advertising', 'other'];
 
-module.exports = async function POST(request) {
+export async function POST(request) {
   try {
     const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
 
@@ -77,4 +77,4 @@ module.exports = async function POST(request) {
   } catch (err) {
     return NextResponse.json({ error: 'Invalid request body.' }, { status: 400 });
   }
-};
+}

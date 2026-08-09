@@ -1,4 +1,4 @@
-const { NextResponse } = require('next/server');
+import { NextResponse } from 'next/server';
 
 let cache = { data: null, timestamp: 0 };
 const CACHE_TTL = 15 * 60 * 1000; // 15 minutes
@@ -13,7 +13,7 @@ function escapeHtml(str) {
     .replace(/'/g, '&#x27;');
 }
 
-module.exports = async function GET() {
+export async function GET() {
   const now = Date.now();
 
   if (cache.data && now - cache.timestamp < CACHE_TTL) {
@@ -77,4 +77,4 @@ module.exports = async function GET() {
     }
     return NextResponse.json([]);
   }
-};
+}

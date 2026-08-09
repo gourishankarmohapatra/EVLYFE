@@ -1,6 +1,6 @@
-const { NextResponse } = require('next/server');
-const data = require('@/lib/data');
+import { NextResponse } from 'next/server';
+import * as data from '@/lib/data';
 
-module.exports = async function GET() {
+export async function GET() {
   return NextResponse.json({ faqs: data.getFAQs() });
-};
+}
