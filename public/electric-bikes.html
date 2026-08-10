@@ -53,10 +53,6 @@
       </div>
     </section>
 
-    <!-- ========== BANNER CAROUSEL ========== -->
-    <section class="banner-carousel-section">
-      <div id="bannerCarousel"></div>
-    </section>
 
     <section class="listing-section">
       <div class="container">
@@ -89,7 +85,6 @@
 
   <script src="js/api.js"></script>
   <script src="js/navigation.js"></script>
-  <script src="js/banner-carousel.js"></script>
   <script>
     document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
     document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
@@ -211,7 +206,7 @@
 
     function goToPage(page) { currentPage = page; loadVehicles(); window.scrollTo({ top: 300, behavior: 'smooth' }); }
 
-    async function init() { await API.loadData(); BannerCarousel.init(); renderFilters(); loadVehicles(); }
+    async function init() { await API.loadData(); renderFilters(); loadVehicles(); }
     init();
   </script>
 </body>

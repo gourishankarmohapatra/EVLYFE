@@ -76,11 +76,6 @@
   <div id="app">
     <header id="mainHeader"></header>
 
-    <!-- ========== BANNER CAROUSEL ========== -->
-    <section class="banner-carousel-section">
-      <div id="bannerCarousel"></div>
-    </section>
-
     <!-- ========== 1. HERO SEARCH SECTION ========== -->
     <section class="hero-search-section">
       <div class="container">
@@ -393,7 +388,6 @@
 
   <script src="js/api.js"></script>
   <script src="js/navigation.js"></script>
-  <script src="js/banner-carousel.js"></script>
   <script>
     document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
     document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
@@ -700,7 +694,6 @@
     // ========== INIT ==========
     async function init() {
       await API.loadData();
-      BannerCarousel.init();
       populateBrandDropdown();
       loadSpotlight('Scooter');
       loadPopular();

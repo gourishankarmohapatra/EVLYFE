@@ -53,10 +53,6 @@
       </div>
     </section>
 
-    <!-- ========== BANNER CAROUSEL ========== -->
-    <section class="banner-carousel-section">
-      <div id="bannerCarousel"></div>
-    </section>
 
     <section class="intro-section">
       <div class="container">
@@ -141,7 +137,6 @@
 
   <script src="js/api.js"></script>
   <script src="js/navigation.js"></script>
-  <script src="js/banner-carousel.js"></script>
   <script>
     document.getElementById('mainHeader').innerHTML = Navigation.getHeader();
     document.getElementById('mainFooter').innerHTML = Navigation.getFooter();
@@ -417,7 +412,6 @@
 
     async function init() {
       await API.loadData();
-      BannerCarousel.init();
       renderFilters();
       loadCompanies();
     }
