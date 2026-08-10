@@ -142,19 +142,7 @@
           <img src="${blog.featureImage}" alt="${blog.title}" style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;">
         </div>
         <div class="article-content">
-          <p>${blog.description}</p>
-          <p>Electric vehicles are transforming the way we commute in India. With growing environmental concerns and rising fuel prices, more and more consumers are making the switch to electric mobility.</p>
-          <p>The Indian government has been actively promoting electric vehicles through various incentives and policies. The FAME II scheme, state-level subsidies, and tax benefits have made EVs more affordable than ever before.</p>
-          <p>When choosing an electric vehicle, consider factors like your daily commute distance, available charging infrastructure, total cost of ownership, and the manufacturer's service network in your area.</p>
-          <h3 style="font-size:20px;font-weight:600;margin:25px 0 12px;">Key Takeaways</h3>
-          <ul style="line-height:2;">
-            <li>Electric vehicles offer significant savings on fuel and maintenance costs</li>
-            <li>Home charging is convenient and cost-effective for most users</li>
-            <li>Real-world range is typically 70-85% of the claimed range in city driving</li>
-            <li>Modern EV batteries come with 8-year warranties from most manufacturers</li>
-            <li>The charging infrastructure in India is rapidly expanding</li>
-          </ul>
-          <p>The future of mobility is electric, and the time to make the switch is now. Visit <a href="electric-vehicles.html" style="color:var(--primary-blue);font-weight:600;">our electric vehicles page</a> to explore all available options and find the perfect EV for your needs.</p>
+          ${blog.content || `<p>${blog.description}</p>`}
         </div>
       `;
 
