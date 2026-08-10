@@ -2652,6 +2652,30 @@ p {
   background: var(--bg-secondary);
 }
 
+/* ========== GRID SYSTEM (Bootstrap-compatible) ========== */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(var(--space-3) * -0.5);
+  margin-left: calc(var(--space-3) * -0.5);
+}
+
+.col-12,
+.col-lg-3,
+.col-lg-6,
+.col-lg-9 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-right: calc(var(--space-3) * 0.5);
+  padding-left: calc(var(--space-3) * 0.5);
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 { width: 25%; }
+  .col-lg-6 { width: 50%; }
+  .col-lg-9 { width: 75%; }
+}
+
 /* ========== UTILITY CLASSES ========== */
 .text-center { text-align: center; }
 .text-left { text-align: left; }
