@@ -10,5 +10,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vercel
-
-.vercel
+tool-output/evindia-blog-fetch/
+tool-output/evindia-product-fetch/
+tool-output/*.cjs
