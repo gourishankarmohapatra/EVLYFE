@@ -23,7 +23,7 @@ const Navigation = {
     return `
       <div class="desktop-header">
         <div class="header-top-bar">
-          <div class="container d-flex justify-content-between align-items-center">
+          <div class="container">
             <div class="social-icons">
               <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
               <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
@@ -31,7 +31,7 @@ const Navigation = {
               <a href="#" title="Twitter"><i class="bi bi-twitter-x"></i></a>
               <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
             </div>
-            <div class="header-top-nav d-none d-md-flex">
+            <div class="header-top-nav">
               <a href="index.html">Home</a>
               <a href="companies.html">Companies</a>
               <a href="electric-vehicles.html">Electric Vehicles</a>
@@ -46,28 +46,28 @@ const Navigation = {
           </div>
         </div>
         <div class="header-main">
-          <div class="container d-flex align-items-center justify-content-between gap-3">
-            <a href="index.html" class="d-flex align-items-center gap-2 text-decoration-none flex-shrink-0">
-              <img src="images/logo.png" alt="EVLYFE" style="height:48px;width:auto;">
-              <div class="d-none d-sm-block">
-                <div style="font-size:18px;font-weight:700;background:linear-gradient(135deg,#1976D2,#26A69A);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.2;">EVLYFE</div>
-                <div style="font-size:8px;color:#888;letter-spacing:1.5px;text-transform:uppercase;">POWERED FOR TOMORROW</div>
+          <div class="container">
+            <a href="index.html" class="logo">
+              <img src="images/logo.png" alt="EVLYFE">
+              <div class="logo-text">
+                <h1>EVLYFE</h1>
+                <p>POWERED FOR TOMORROW</p>
               </div>
             </a>
 
-            <div class="city-selector d-none d-lg-flex" id="citySelector">
+            <div class="header-city-selector" id="citySelector">
               <i class="bi bi-geo-alt"></i>
-              <span id="selectedCity" class="city-display">${selectedCity || '<span class="city-detecting"><i class="bi bi-crosshair"></i> Detecting...</span>'}</span>
+              <span id="selectedCity">${selectedCity || '<i class="bi bi-crosshair"></i> Detecting...'}</span>
             </div>
 
-            <div class="search-container d-none d-md-block" style="flex:1;max-width:420px;">
+            <div class="search-container">
               <input type="text" id="headerSearch" placeholder="Search electric vehicles, brands..." autocomplete="off" onkeyup="handleSearchKeyup(event)">
               <button class="search-btn" onclick="handleHeaderSearch()"><i class="bi bi-search"></i></button>
               <div class="search-suggestions" id="searchSuggestions"></div>
             </div>
 
-            <div class="d-flex align-items-center gap-2 header-actions flex-shrink-0">
-              <a href="compare.html" class="btn-compare d-none d-md-flex">
+            <div class="header-actions">
+              <a href="compare.html" class="btn-compare">
                 <i class="bi bi-arrow-left-right"></i> Compare
                 <span class="compare-badge" id="compareCount">0</span>
               </a>
@@ -78,18 +78,18 @@ const Navigation = {
 
       <nav class="mobile-header">
         <button class="hamburger" onclick="toggleMobileSidebar()"><i class="bi bi-list"></i></button>
-        <a href="index.html"><img src="images/logo.png" alt="EVLYFE" style="height:34px;"></a>
+        <a href="index.html"><img src="images/logo.png" alt="EVLYFE"></a>
         <div class="mobile-actions">
-          <button onclick="toggleMobileSearch()" class="d-md-none"><i class="bi bi-search"></i></button>
-          <a href="compare.html" style="color:var(--text-dark);position:relative;">
+          <button onclick="toggleMobileSearch()"><i class="bi bi-search"></i></button>
+          <a href="compare.html" style="position:relative;color:var(--text-primary);">
             <i class="bi bi-arrow-left-right"></i>
             <span class="compare-badge" style="position:absolute;top:-6px;right:-8px;font-size:9px;" id="mobileCompareCount">0</span>
           </a>
         </div>
       </nav>
 
-      <div class="mobile-search-bar d-md-none" id="mobileSearchBar" style="display:none;">
-        <div class="search-container">
+      <div class="mobile-search-bar" id="mobileSearchBar" style="display:none;padding:var(--space-3) var(--space-4);background:var(--bg-primary);border-bottom:1px solid var(--border-default);">
+        <div class="search-container" style="max-width:100%;">
           <input type="text" id="mobileHeaderSearch" placeholder="Search electric vehicles..." autocomplete="off" onkeyup="handleSearchKeyup(event)">
           <button class="search-btn" onclick="handleHeaderSearch()"><i class="bi bi-search"></i></button>
         </div>
@@ -160,7 +160,6 @@ const Navigation = {
 
   getFooter() {
     return `
-      <!-- Ad - Above Footer -->
       <div class="ad-container text-center">
         <ins class="adsbygoogle"
              style="display:block"
@@ -172,13 +171,13 @@ const Navigation = {
 
       <footer class="footer">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-3 footer-col">
+          <div class="footer-grid">
+            <div>
               <div class="footer-logo">
-                <img src="images/logo.png" alt="EVLYFE" style="height:55px;">
+                <img src="images/logo.png" alt="EVLYFE">
               </div>
               <p class="footer-tagline">POWERED FOR TOMORROW</p>
-              <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.7;">
+              <p class="footer-description">
                 Your trusted platform for discovering and comparing electric vehicles in India. Find the perfect EV for your needs.
               </p>
               <div class="footer-social">
@@ -189,7 +188,7 @@ const Navigation = {
                 <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
-            <div class="col-6 col-md-6 col-lg-3 footer-col">
+            <div>
               <h4>Quick Links</h4>
               <div class="footer-links">
                 <a href="index.html">Home</a>
@@ -201,7 +200,7 @@ const Navigation = {
                 <a href="compare.html">Compare EVs</a>
               </div>
             </div>
-            <div class="col-6 col-md-6 col-lg-3 footer-col">
+            <div>
               <h4>Explore</h4>
               <div class="footer-links">
                 <a href="dealer-showrooms.html">Dealer Showrooms</a>
@@ -212,19 +211,12 @@ const Navigation = {
                 <a href="electric-vehicles.html?type=10">Electric Cars</a>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 footer-col">
+            <div>
               <h4>Contact Us</h4>
               <div class="footer-contact">
                 <p><i class="bi bi-telephone"></i> +91 6370773029</p>
                 <p><i class="bi bi-envelope"></i> evlyfe@gmail.com</p>
                 <p><i class="bi bi-globe"></i> www.evlyfe.com</p>
-              </div>
-              <div style="margin-top:15px;">
-                <p style="font-size:13px;color:rgba(255,255,255,0.7);margin-bottom:8px;">Download Our App</p>
-                <div style="display:flex;gap:8px;">
-                  <a href="#" style="display:inline-block;padding:6px 12px;background:rgba(255,255,255,0.1);border-radius:6px;font-size:11px;color:white;"><i class="bi bi-google-play"></i> Google Play</a>
-                  <a href="#" style="display:inline-block;padding:6px 12px;background:rgba(255,255,255,0.1);border-radius:6px;font-size:11px;color:white;"><i class="bi bi-apple"></i> App Store</a>
-                </div>
               </div>
             </div>
           </div>
@@ -259,7 +251,25 @@ const Navigation = {
       window.addEventListener('scroll', () => {
         const btn = document.getElementById('backToTop');
         if (btn) btn.classList.toggle('visible', window.scrollY > 300);
+
+        const header = document.querySelector('.header-main');
+        if (header) header.classList.toggle('scrolled', window.scrollY > 10);
       });
+
+      // Scroll-triggered reveal animations
+      const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+      if (revealElements.length > 0 && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        revealElements.forEach(el => observer.observe(el));
+      }
     });
   },
 
