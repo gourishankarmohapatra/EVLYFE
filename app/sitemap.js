@@ -18,6 +18,7 @@ export default function sitemap() {
     { url: `${baseUrl}/careers.html`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${baseUrl}/privacy.html`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
     { url: `${baseUrl}/terms.html`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${baseUrl}/sitemap-page.html`, lastModified: now, changeFrequency: 'monthly', priority: 0.3 },
   ];
 
   const vehiclePages = vehicles.map((v) => ({
