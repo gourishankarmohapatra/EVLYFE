@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>    
   <meta charset="UTF-8">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://pagead2.googlesyndication.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' https://cdn.evindia.online https://via.placeholder.com https://news.google.com data: blob:; frame-src https://www.youtube.com https://player.vimeo.com https://pagead2.googlesyndication.com https://www.google.com; connect-src 'self' https://www.google-analytics.com;">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-  <title>EVLYFE - Electric Vehicles India</title>
+  <title>EVLYFE - Compare Electric Vehicles in India 2026</title>
   <meta name="google-site-verification" content="841rKKUD2i1oPUCkmrJSs5g4yIn5pnCwjWTO9izyGio" />
 <meta name="google-adsense-account" content="ca-pub-6950966761441733">  
-<meta name="description" content="EVLYFE lists 200+ electric vehicles across all categories - electric cars, scooters, bikes, and commercial vehicles from top brands. Compare EV prices, range, specifications.">
+  <meta name="description" content="India's largest EV comparison platform. Browse 200+ electric cars, scooters, bikes with prices, range, specs and reviews.">
   <meta name="keywords" content="electric vehicles India, EV prices, electric cars, electric scooters, electric bikes, EV comparison">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.evlyfe.com/">
@@ -18,6 +18,7 @@
   <meta property="og:image" content="https://www.evlyfe.com/images/logo.png">
   <meta property="og:site_name" content="EVLYFE">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@evlyfe">
   <meta name="twitter:title" content="Electric Vehicles in India 2026 | EVLYFE">
   <meta name="twitter:description" content="Compare 200+ electric vehicles in India. Find the best EV for your needs.">
   <meta name="twitter:image" content="https://www.evlyfe.com/images/logo.png">
@@ -32,7 +33,12 @@
     "url": "https://www.evlyfe.com",
     "logo": "https://www.evlyfe.com/images/logo.png",
     "description": "India's leading electric vehicle comparison platform. Compare 200+ EVs - prices, range, specifications & reviews.",
-    "sameAs": [],
+    "sameAs": [
+      "https://www.facebook.com/evlyfe",
+      "https://www.instagram.com/evlyfe",
+      "https://www.youtube.com/@evlyfe",
+      "https://twitter.com/evlyfe"
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "IN"
@@ -66,7 +72,9 @@
     ]
   }
   </script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" integrity="sha384-bKJoVRJxlxsGK2lb0Q3C0YvZ03i1X1Of5XsN0Q0H6dN8Kp8M7O1p6v5X5X5X5X5" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" integrity="sha384-bKJoVRJxlxsGK2lb0Q3C0YvZ03i1X1Of5XsN0Q0H6dN8Kp8M7O1p6v5X5X5X5X5" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -202,9 +210,9 @@
         </div>
 
         <div class="spotlight-scroll-container">
-          <button class="scroll-arrow left" onclick="scrollSpotlight(-1)"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-arrow left" onclick="scrollSpotlight(-1)" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
           <div class="spotlight-scroll" id="spotlightGrid"></div>
-          <button class="scroll-arrow right" onclick="scrollSpotlight(1)"><i class="bi bi-chevron-right"></i></button>
+          <button class="scroll-arrow right" onclick="scrollSpotlight(1)" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
         </div>
       </div>
     </section>
@@ -280,9 +288,9 @@
           <a href="electric-vehicles.html?sort=popular" class="view-all">View All <i class="bi bi-arrow-right"></i></a>
         </div>
         <div class="spotlight-scroll-container">
-          <button class="scroll-arrow left" onclick="scrollPopular(-1)"><i class="bi bi-chevron-left"></i></button>
+          <button class="scroll-arrow left" onclick="scrollPopular(-1)" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
           <div class="spotlight-scroll" id="popularGrid"></div>
-          <button class="scroll-arrow right" onclick="scrollPopular(1)"><i class="bi bi-chevron-right"></i></button>
+          <button class="scroll-arrow right" onclick="scrollPopular(1)" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
         </div>
       </div>
     </section>

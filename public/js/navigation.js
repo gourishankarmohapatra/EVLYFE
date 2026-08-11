@@ -50,7 +50,7 @@ const Navigation = {
             <a href="index.html" class="logo">
               <img src="images/logo.png" alt="EVLYFE">
               <div class="logo-text">
-                <h1>EVLYFE</h1>
+                <span class="logo-title">EVLYFE</span>
                 <p>POWERED FOR TOMORROW</p>
               </div>
             </a>
@@ -62,7 +62,7 @@ const Navigation = {
 
             <div class="search-container">
               <input type="text" id="headerSearch" placeholder="Search electric vehicles, brands..." autocomplete="off" onkeyup="handleSearchKeyup(event)">
-              <button class="search-btn" onclick="handleHeaderSearch()"><i class="bi bi-search"></i></button>
+              <button class="search-btn" onclick="handleHeaderSearch()" aria-label="Search"><i class="bi bi-search"></i></button>
               <div class="search-suggestions" id="searchSuggestions"></div>
             </div>
 
@@ -77,10 +77,10 @@ const Navigation = {
       </div>
 
       <nav class="mobile-header">
-        <button class="hamburger" onclick="toggleMobileSidebar()"><i class="bi bi-list"></i></button>
+        <button class="hamburger" onclick="toggleMobileSidebar()" aria-label="Open menu"><i class="bi bi-list"></i></button>
         <a href="index.html"><img src="images/logo.png" alt="EVLYFE"></a>
         <div class="mobile-actions">
-          <button onclick="toggleMobileSearch()"><i class="bi bi-search"></i></button>
+          <button onclick="toggleMobileSearch()" aria-label="Search"><i class="bi bi-search"></i></button>
           <a href="compare.html" style="position:relative;color:var(--text-primary);">
             <i class="bi bi-arrow-left-right"></i>
             <span class="compare-badge" style="position:absolute;top:-6px;right:-8px;font-size:9px;" id="mobileCompareCount">0</span>
@@ -99,7 +99,7 @@ const Navigation = {
       <div class="mobile-sidebar" id="mobileSidebar">
         <div class="sidebar-header">
           <h3><i class="bi bi-list"></i> Menu</h3>
-          <button class="close-btn" onclick="closeMobileSidebar()">&times;</button>
+          <button class="close-btn" onclick="closeMobileSidebar()" aria-label="Close menu">&times;</button>
         </div>
         <div class="sidebar-nav">
           <a href="index.html"><i class="bi bi-house"></i> Home</a>
@@ -235,7 +235,7 @@ const Navigation = {
   },
 
   getBackToTop() {
-    return `<button class="back-to-top" id="backToTop" onclick="scrollToTop()"><i class="bi bi-arrow-up"></i></button>`;
+    return `        <button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>`;
   },
 
   init() {

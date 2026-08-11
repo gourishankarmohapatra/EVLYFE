@@ -166,7 +166,7 @@ p {
   width: auto;
 }
 
-.header-main .logo-text h1 {
+.header-main .logo-title {
   font-size: 17px;
   font-weight: 800;
   background: var(--gradient-primary);
