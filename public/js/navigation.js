@@ -226,7 +226,7 @@ const Navigation = {
             &copy; 2026 EVLYFE. All Rights Reserved. |
             <a href="privacy.html">Privacy Policy</a> |
             <a href="terms.html">Terms & Conditions</a> |
-            <a href="sitemap-page.html">Sitemap</a> |
+            <a href="sitemap.xml">Sitemap</a> |
             <a href="careers.html">Careers</a> |
             <a href="mailto:evlyfe@gmail.com">Contact</a>
           </div>
