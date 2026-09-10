@@ -2026,6 +2026,41 @@ img {
   color: #888;
 }
 
+.search-did-you-mean {
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #555;
+  background: #f8f9fa;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.search-did-you-mean i {
+  color: #f59e0b;
+  margin-right: 4px;
+}
+
+.search-did-you-mean a {
+  color: var(--primary-color, #1976D2);
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search-did-you-mean a:hover {
+  color: var(--secondary-color, #26A69A);
+}
+
+.search-no-results {
+  padding: 12px 15px;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+}
+
+.search-no-results i {
+  margin-right: 4px;
+}
+
 /* ========== SPOTLIGHT SECTION ========== */
 .spotlight-section {
   padding: 40px 0;

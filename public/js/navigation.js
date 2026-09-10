@@ -337,7 +337,18 @@ function handleSearchKeyup(e) {
 
   const results = API.searchVehicles(query).slice(0, 5);
   if (results.length === 0) {
-    suggestionsEl.style.display = 'none';
+    const suggestion = API.suggestVehicleCorrection(query);
+    if (suggestion) {
+      suggestionsEl.innerHTML = `
+        <div class="search-did-you-mean">
+          <i class="bi bi-lightbulb"></i> Did you mean:
+          <a href="#" onclick="event.preventDefault();document.getElementById('headerSearch').value='${escapeHtml(suggestion)}';handleSearchKeyup({key:null,target:{value:'${escapeHtml(suggestion)}'}});">${escapeHtml(suggestion)}</a>?
+        </div>`;
+      suggestionsEl.style.display = 'block';
+    } else {
+      suggestionsEl.innerHTML = `<div class="search-no-results"><i class="bi bi-search"></i> No vehicles found for "${escapeHtml(query)}"</div>`;
+      suggestionsEl.style.display = 'block';
+    }
     return;
   }
 

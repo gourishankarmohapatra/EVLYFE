@@ -297,6 +297,41 @@ p {
   border-radius: var(--radius-xs);
 }
 
+.search-did-you-mean {
+  padding: 10px 15px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-default);
+}
+
+.search-did-you-mean i {
+  color: #f59e0b;
+  margin-right: 4px;
+}
+
+.search-did-you-mean a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search-did-you-mean a:hover {
+  color: var(--color-secondary);
+}
+
+.search-no-results {
+  padding: 12px 15px;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  text-align: center;
+}
+
+.search-no-results i {
+  margin-right: 4px;
+}
+
 .nav-links {
   display: flex;
   gap: var(--space-1);

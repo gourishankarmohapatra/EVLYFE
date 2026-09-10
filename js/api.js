@@ -75,12 +75,7 @@ const API = {
     }
 
     if (filters.search) {
-      const s = filters.search.toLowerCase();
-      result = result.filter(v =>
-        v.title.toLowerCase().includes(s) ||
-        v.company.toLowerCase().includes(s) ||
-        v.subtitle.toLowerCase().includes(s)
-      );
+      result = FuzzySearch.fuzzyFilter(filters.search, result, ['title', 'company', 'subtitle']);
     }
 
     switch (filters.sort) {
@@ -243,12 +238,11 @@ const API = {
   },
 
   searchVehicles(query) {
-    const s = query.toLowerCase();
-    return this.vehicles.filter(v =>
-      v.title.toLowerCase().includes(s) ||
-      v.company.toLowerCase().includes(s) ||
-      v.vehicle_type_name.toLowerCase().includes(s)
-    );
+    return FuzzySearch.fuzzyFilter(query, this.vehicles, ['title', 'company', 'vehicle_type_name']);
+  },
+
+  suggestVehicleCorrection(query) {
+    return FuzzySearch.suggestCorrection(query, this.vehicles, ['title', 'company']);
   },
 
   getRecentlyViewed() {
@@ -290,14 +284,7 @@ const API = {
     }
 
     if (filters.search) {
-      const s = filters.search.toLowerCase();
-      result = result.filter(c =>
-        c.title.toLowerCase().includes(s) ||
-        c.city.toLowerCase().includes(s) ||
-        c.state.toLowerCase().includes(s) ||
-        c.field.toLowerCase().includes(s) ||
-        c.description.toLowerCase().includes(s)
-      );
+      result = FuzzySearch.fuzzyFilter(filters.search, result, ['title', 'city', 'state', 'field', 'description']);
     }
 
     switch (filters.sort) {
@@ -347,13 +334,7 @@ const API = {
   },
 
   searchCompanies(query) {
-    const s = query.toLowerCase();
-    return this.companies.filter(c =>
-      c.title.toLowerCase().includes(s) ||
-      c.city.toLowerCase().includes(s) ||
-      c.state.toLowerCase().includes(s) ||
-      c.description.toLowerCase().includes(s)
-    );
+    return FuzzySearch.fuzzyFilter(query, this.companies, ['title', 'city', 'state', 'description']);
   },
 
   getCompanyVehicleTypes() {
